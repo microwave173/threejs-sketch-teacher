@@ -1,0 +1,16 @@
+{
+  "model": "deepseek-flash",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "thinking": "enabled",
+  "reasoning_effort": "low",
+  "max_tokens": 32768,
+  "compression_limit": 3000,
+  "concurrency": 8,
+  "render_concurrency": 2,
+  "frames": 60,
+  "duration_seconds": 4,
+  "generation_attempts": 2,
+  "compression_attempts": 4,
+  "tokenizer_repo": "Qwen/Qwen3.5-9B",
+  "tokenizer_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+}

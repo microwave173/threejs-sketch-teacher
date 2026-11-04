@@ -1,0 +1,7 @@
+{
+  "source": "direct_js_teacher100_v1",
+  "teacher": "deepseek-flash",
+  "reasoning_effort": "low",
+  "system_prompt": "prompts/system_original.txt",
+  "note": "Historical generated examples, before simple-motion instruction. Structurally valid, not quality-certified."
+}

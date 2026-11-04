@@ -1,0 +1,702 @@
+[
+  {
+    "id": "atom_5b3300aaeeab",
+    "prompt": "A falling domino strikes a ball, sending it rolling.",
+    "prompt_zh": "一张下落的骨牌击中一个球，使球滚动起来。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_61957e44f125",
+    "prompt": "A sphere rolls halfway up a low step and slides back down.",
+    "prompt_zh": "一个球滚上低台阶一半又滑回下方。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_8147df56597c",
+    "prompt": "An old woman presses on a stool to rise slowly.",
+    "prompt_zh": "一位老妇撑着凳子缓缓起身。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_d17d18ed981a",
+    "prompt": "Two fox kits bat a ball between them.",
+    "prompt_zh": "两只小狐狸把球拍来拍去。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_fe4ac613f31b",
+    "prompt": "A cylinder rolls and presses against a spring-loaded block.",
+    "prompt_zh": "圆柱滚动并挤压一个带弹簧的方块。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_4d9bbd7fe4bb",
+    "prompt": "A lightweight cylinder rolls into a low block and rebounds backward.",
+    "prompt_zh": "一个轻质圆柱滚向一块低矮方块并向后弹回。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_11fd538276bd",
+    "prompt": "A person sits on a stool while holding a tray steady.",
+    "prompt_zh": "一个人坐在矮凳上稳稳地端着托盘。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_7613e74c76c6",
+    "prompt": "A turtle climbs slowly up a low wooden ramp.",
+    "prompt_zh": "一只乌龟缓慢地爬上低矮的木制斜坡。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_cf929b8c3c1b",
+    "prompt": "Two discs roll toward each other and bump together.",
+    "prompt_zh": "两个圆盘相向滚行，互相碰在一起。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_21878f7066ba",
+    "prompt": "A tilted cylinder rises through a wide ring held above it.",
+    "prompt_zh": "一个倾斜的圆柱向上穿过悬在其上方的宽环。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_7a037721b7eb",
+    "prompt": "A person slides a ring down a rope onto a post.",
+    "prompt_zh": "一个人将一个环沿绳子滑下，落到柱子上。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_6d35e4acfa9a",
+    "prompt": "A turtle walks past a stone standing upright.",
+    "prompt_zh": "一只乌龟走过一块竖立的石头。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_3c3f784ff1fa",
+    "prompt": "A marble rolls along a rod and lands inside a tray.",
+    "prompt_zh": "一颗弹珠沿着一根杆滚过，落进托盘里。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_1510060a7b36",
+    "prompt": "A cylinder bumps a domino, which falls against the cylinder's side.",
+    "prompt_zh": "一个圆柱碰倒一张多米诺，多米诺撞到圆柱侧面。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_1d808334d2b6",
+    "prompt": "A child bowls a ball under an archway.",
+    "prompt_zh": "一个孩子把球从拱门下滚过。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_616bd64575a5",
+    "prompt": "A hamster climbs a gentle slope of stacked blocks.",
+    "prompt_zh": "一只仓鼠爬上由堆叠方块构成的缓坡。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_83148042837f",
+    "prompt": "A swinging ball hits a domino and sends it falling forward.",
+    "prompt_zh": "摆动的球击中骨牌，使其向前倒下。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_193a02d6783c",
+    "prompt": "A cylinder wobbles and falls sideways onto a short stopper.",
+    "prompt_zh": "一个圆柱摇晃后侧倒，压在矮挡块上。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_26556b271e97",
+    "prompt": "A person slides a rod onto a low bracket.",
+    "prompt_zh": "一个人把杆子滑到矮支架上。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_0bfe10ae18f0",
+    "prompt": "A rabbit clears a low rod while jumping off a platform.",
+    "prompt_zh": "一只兔子从台子跳下时越过一根低杆。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_01d65f66b57c",
+    "prompt": "A ball rolls past a cube and brushes its corner.",
+    "prompt_zh": "一个球从立方块旁滚过，擦到它的角。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_6847a345da00",
+    "prompt": "A wide ring drops over a short standing post.",
+    "prompt_zh": "一个宽圆环落套在一根短立柱上。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_0d5b4228fd9d",
+    "prompt": "A person tosses a ball to another person who catches it.",
+    "prompt_zh": "一个人把球抛给另一个人，对方接住。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_185b498e30e5",
+    "prompt": "A rabbit noses a small ball into a shallow tray.",
+    "prompt_zh": "一只兔子用鼻子把一个小球顶进浅托盘里。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_0e0a0b0f4d84",
+    "prompt": "A ball rolls along a groove and knocks a domino over.",
+    "prompt_zh": "一个球沿浅槽滚动，撞倒一块多米诺骨牌。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_04a5f024dee6",
+    "prompt": "A cube nudges a tilted cone upright against a block.",
+    "prompt_zh": "一个立方体轻推倾斜的圆锥，使它立靠在方块旁。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_80a3aa3de1bf",
+    "prompt": "A man lifts a box while kneeling beside it.",
+    "prompt_zh": "一名男子在箱子旁跪着将它抬起。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_0e10ee274c53",
+    "prompt": "A rabbit pushes a small ball up a shallow ramp.",
+    "prompt_zh": "一只兔子把小球沿缓坡向上推。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_33e162755ca8",
+    "prompt": "A ball squeezed between two blocks pops forward into a groove.",
+    "prompt_zh": "一个球被两块夹住，向前弹出落入凹槽。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_11215661bfd3",
+    "prompt": "A sphere rolls under an overhanging edge and reappears.",
+    "prompt_zh": "一个球体从悬垂边缘下方滚过并重新出现。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_439b96ccf212",
+    "prompt": "A person pulls a cart while walking backward.",
+    "prompt_zh": "一个人一边后退一边拉动推车。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_7385f71c005b",
+    "prompt": "A snail slides slowly across a slightly tilting balance board.",
+    "prompt_zh": "一只蜗牛缓缓滑过一块微微倾斜的平衡板。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_160e5d249407",
+    "prompt": "A ball rolls down a short ramp and bounces off a block.",
+    "prompt_zh": "一个小球滚下短斜坡，撞到木块后弹开。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_3b7fe333b4b3",
+    "prompt": "A ball rolls down a ramp from inside a box.",
+    "prompt_zh": "一个球从盒子内部沿斜坡滚下。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_0277b31ecfb2",
+    "prompt": "A person bounces a ball once on the ground.",
+    "prompt_zh": "一个人在把球拍向地面一次。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_55472b62d641",
+    "prompt": "A cat crouches and slips through a wide upright ring.",
+    "prompt_zh": "一只猫蹲下身子，从竖立的宽环中钻过。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_4609941fcb23",
+    "prompt": "A ball drops onto a ramp and bounces down its slope.",
+    "prompt_zh": "一个球落到斜坡上，沿着斜面弹跳而下。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_15ec8c39ffaf",
+    "prompt": "A cube glides over a soft hump and taps a small sphere.",
+    "prompt_zh": "一个方块滑过柔和隆起，轻碰一个小球。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_a02d0d293665",
+    "prompt": "A person hooks a small bucket onto a rod.",
+    "prompt_zh": "一个人把小桶挂到一根杆子上。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_091a8dbbc1ce",
+    "prompt": "A kitten springs up from inside a shallow box.",
+    "prompt_zh": "一只小猫从浅盒子里弹跳而起。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_4c75cd4023d2",
+    "prompt": "A ball drops onto a soft trampoline and bounces high.",
+    "prompt_zh": "一个球落到软蹦床上并高高弹起。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_0481d194e2ae",
+    "prompt": "A tray moves under a sliding block that drops inside.",
+    "prompt_zh": "一个托盘移动到滑动的方块下方，方块落入其中。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_34400b270da8",
+    "prompt": "A woman swings a bat at a baseball.",
+    "prompt_zh": "一个女人挥棒击打棒球。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_3e08187e5d6c",
+    "prompt": "A bird springs off a pole and circles a suspended sphere.",
+    "prompt_zh": "一只鸟从杆上弹起，绕着一个悬着的球体飞。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_31520e7a5e57",
+    "prompt": "A ball swings and clears a small hurdle.",
+    "prompt_zh": "一个球摆动并越过一个小跨栏。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_9b85a95b469b",
+    "prompt": "A rod sweeps a block off a platform edge.",
+    "prompt_zh": "一根杆将方块扫下平台边缘。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_07c4744c95e0",
+    "prompt": "A woman catches a ball tossed diagonally across her body.",
+    "prompt_zh": "一位女士接住斜穿过身体前方抛来的球。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_6a0917f783fc",
+    "prompt": "A bird nudges a light ball off a slanted board.",
+    "prompt_zh": "一只鸟把轻球从斜板上推落。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_54f8e827aac7",
+    "prompt": "A hanging ball is pushed and swings upward.",
+    "prompt_zh": "一个悬挂的球被推动并向上摆动。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_1c6a6f1bf579",
+    "prompt": "A wedge is tucked between two balls, spreading them apart.",
+    "prompt_zh": "楔形块被塞进两个球之间，把它们分开。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_29e92c7492e8",
+    "prompt": "A farmer pushes a wheelbarrow through soft soil.",
+    "prompt_zh": "一位农夫推着独轮车穿过松软的泥土。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_29bbdf9e3405",
+    "prompt": "A bird slides slightly along a smooth metal bar.",
+    "prompt_zh": "一只鸟沿一根光滑金属杆轻微滑动。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_5eefe7b9a7e1",
+    "prompt": "A small block teeters on two stacked blocks and falls off.",
+    "prompt_zh": "一个小方块在两个叠块上摇晃后掉落。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_bec43896e5b1",
+    "prompt": "A ball rolls along the inside of a curving shallow groove.",
+    "prompt_zh": "一个球沿着弯曲浅槽的内侧滚动。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_26b47e26c72f",
+    "prompt": "A person pushes a box between two standing blocks.",
+    "prompt_zh": "一个人把箱子从两个立着的方块之间推过。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_50aebcb04ff2",
+    "prompt": "A bird pecks at a nut wedged between two blocks.",
+    "prompt_zh": "一只鸟啄两颗方块之间卡住的坚果。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_7fe6cf9557bb",
+    "prompt": "A cube slides and knocks over a standing domino.",
+    "prompt_zh": "一个方块滑动并撞倒一个立着的多米诺骨牌。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_8047ce3d6372",
+    "prompt": "A ball rolls through a wide ring standing upright.",
+    "prompt_zh": "一个球滚过一个竖直立着的大圆环。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_0017844d98e5",
+    "prompt": "A boy pulls a drifting crate toward himself with a hooked pole.",
+    "prompt_zh": "一个男孩用钩杆把漂流的箱子拉向自己。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_59a210bd4173",
+    "prompt": "A squirrel nudges a pinecone across a flat stone.",
+    "prompt_zh": "一只松鼠在平整的石头上把松果推过去。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_35d9464651b9",
+    "prompt": "A disc floats and slides under a small floating bridge.",
+    "prompt_zh": "一个圆盘漂浮着，从小漂浮桥下穿过。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_74f0b499a304",
+    "prompt": "A ball glances off a cube's vertical edge.",
+    "prompt_zh": "一个球擦过立方体的竖直棱。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_e020562e3650",
+    "prompt": "A woman places a heavy box onto a tabletop.",
+    "prompt_zh": "一名女子把重箱子放到桌面上。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_2df0f295db0d",
+    "prompt": "A dog lifts its forepaws onto a short sturdy stool.",
+    "prompt_zh": "一只狗抬起前爪放到矮而结实的凳子上。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_1fa0b8ccba59",
+    "prompt": "A ball rolls down a shallow incline and taps a barrier.",
+    "prompt_zh": "一个球沿浅斜坡滚下，轻碰挡板。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_1983b1248da4",
+    "prompt": "A ball is lifted and dropped straight into a waiting open box.",
+    "prompt_zh": "一个球被提起，垂直落入等待的敞口盒子。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_097f499c7ebe",
+    "prompt": "A person walks up a ramp dribbling a ball.",
+    "prompt_zh": "一个人运着球走上斜坡。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_2da8aa0f8231",
+    "prompt": "A dog pushes a cube against another cube until both shift.",
+    "prompt_zh": "一只狗把方块推向另一个方块，直到两个都挪动。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_c4de2b36facc",
+    "prompt": "Two balls hang from strings and one swings to strike the other.",
+    "prompt_zh": "两个球悬挂在绳上，其中一个摆动撞向另一个。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_1e28553c96b9",
+    "prompt": "A ball rolls off a low platform into a bowl below.",
+    "prompt_zh": "球从低平台滚落进下方的碗里。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_1483540a2daa",
+    "prompt": "A woman catches a rolling ball under her heel.",
+    "prompt_zh": "一个女人用脚跟接住滚来的球。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_a271c4c9aff9",
+    "prompt": "A dog nudges a ball down a gentle slope.",
+    "prompt_zh": "一只狗用鼻子把球推下缓坡。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_729df0ba4d23",
+    "prompt": "A ball drops onto a tray and hops once.",
+    "prompt_zh": "一个球落到托盘上并弹起一次。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_84e5d04dac38",
+    "prompt": "One ball pushes another ball into a short open tunnel.",
+    "prompt_zh": "一个球把另一个球推入一段短而敞开的隧道。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_19083c83485a",
+    "prompt": "A jogger leaps across a small ditch on the path.",
+    "prompt_zh": "一名慢跑者跃过小路上的一个小沟。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_74166de4ee0a",
+    "prompt": "A collie trots across a low hurdle and lands softly.",
+    "prompt_zh": "一只牧羊犬小跑越过低跨栏，轻轻落地。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_1aeffab5f882",
+    "prompt": "A ball is nudged onto a pillow and sinks slowly.",
+    "prompt_zh": "一个球被推到枕头上并缓缓下陷。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_25f145a7f201",
+    "prompt": "A cube topples from a cube and lands beside it.",
+    "prompt_zh": "一个立方体从立方体上翻倒，落在旁边。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_0c954f321c25",
+    "prompt": "A kneeling person slides a rod through a ring.",
+    "prompt_zh": "跪着的人把杆子穿过圆环。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_7492c439ef34",
+    "prompt": "A cat rubs its head against a dangling ball.",
+    "prompt_zh": "一只猫用头蹭擦垂下的球。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_66f526d40200",
+    "prompt": "A standing block topples and strikes a second upright block.",
+    "prompt_zh": "一个立着的方块倒下并撞到第二个直立方块。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_7551a55ef609",
+    "prompt": "A cube slides into a hollow box and disappears inside.",
+    "prompt_zh": "一个立方体滑进空盒子里，消失在内部。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_521d1b8f739d",
+    "prompt": "A child hops onto a low step.",
+    "prompt_zh": "一个孩子跳上低台阶。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_b13f8a1563f3",
+    "prompt": "A cat paws a ball down a short ramp.",
+    "prompt_zh": "一只猫用爪子把一个球拨下短坡道。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_313cd875f425",
+    "prompt": "A short domino leans and topples against its neighbor.",
+    "prompt_zh": "一块短骨牌倾斜并倒向相邻的一块。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_84a393cda065",
+    "prompt": "A cube slides across a flat surface toward a wide ring.",
+    "prompt_zh": "一个立方体在平面上滑向一个宽环。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_8b660b702181",
+    "prompt": "A boy kicks a ball under a low bench.",
+    "prompt_zh": "一个男孩把球踢过一条矮长凳下方。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_43035b1ec1e1",
+    "prompt": "A cat lands on a cushion.",
+    "prompt_zh": "一只猫落在垫子上。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_7ecf7b00da84",
+    "prompt": "A sphere drops onto a short post and topples it.",
+    "prompt_zh": "一个球体落到短柱上，将其撞倒。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_a414fbbb6213",
+    "prompt": "A wide ring stands upright and a cube passes through its center.",
+    "prompt_zh": "一个宽圆环立着，一个立方体穿过其中心。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_35594b6b118f",
+    "prompt": "A person taps a hanging ball and it swings away.",
+    "prompt_zh": "一个人轻拍悬挂的球，球摆开了。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_151f73e9a1b2",
+    "prompt": "A frog leaps onto a wide leaf that sways gently.",
+    "prompt_zh": "一只青蛙跳上一片轻轻摆动的宽叶子。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_c3322b7608d3",
+    "prompt": "A lever tips a block over its edge.",
+    "prompt_zh": "一根杠杆把一块方块从边缘翻倒。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_2ece39bae246",
+    "prompt": "A cube tips over one of its bottom edges onto the floor.",
+    "prompt_zh": "一个立方体绕其底部一条棱翻倒在地面上。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_3e789cadeffb",
+    "prompt": "A woman places a block on a man's outstretched hand.",
+    "prompt_zh": "一名女子把一块积木放在一名男子伸出的手上。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_131b6683d453",
+    "prompt": "A duck pushes a ball toward a floating ring.",
+    "prompt_zh": "鸭子把浮球推向一个浮圈。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  },
+  {
+    "id": "atom_1c54b35d0449",
+    "prompt": "A block placed near the pivot slowly tips the seesaw.",
+    "prompt_zh": "一个放在支点附近的方块慢慢压动跷跷板。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_d3838e993c90",
+    "prompt": "Two disks overlap and drop together into a shallow box.",
+    "prompt_zh": "两个圆盘叠在一起一同掉入一个浅盒。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_91eddb9fdc81",
+    "prompt": "Two people slide a crate up a ramp together.",
+    "prompt_zh": "两个人一起把箱子推上斜坡。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_0c269f4c17e0",
+    "prompt": "A duck steps over a low wooden block.",
+    "prompt_zh": "一只鸭子跨过低矮的木块。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  }
+]

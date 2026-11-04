@@ -1,0 +1,30 @@
+[
+  {
+    "id": "atom_5b3300aaeeab",
+    "prompt": "A falling domino strikes a ball, sending it rolling.",
+    "prompt_zh": "一张下落的骨牌击中一个球，使球滚动起来。",
+    "category": "physics",
+    "category_zh": "简单物理交互"
+  },
+  {
+    "id": "atom_61957e44f125",
+    "prompt": "A sphere rolls halfway up a low step and slides back down.",
+    "prompt_zh": "一个球滚上低台阶一半又滑回下方。",
+    "category": "geometry",
+    "category_zh": "立体几何与空间交互"
+  },
+  {
+    "id": "atom_8147df56597c",
+    "prompt": "An old woman presses on a stool to rise slowly.",
+    "prompt_zh": "一位老妇撑着凳子缓缓起身。",
+    "category": "human",
+    "category_zh": "人物与道具交互"
+  },
+  {
+    "id": "atom_d17d18ed981a",
+    "prompt": "Two fox kits bat a ball between them.",
+    "prompt_zh": "两只小狐狸把球拍来拍去。",
+    "category": "animal",
+    "category_zh": "动物与环境交互"
+  }
+]
