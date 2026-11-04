@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "path": "experiments/fixed5_anchor_v1/bulk5000_v1/tasks.json",
+      "sha256": "63c584479b72a346049168ee17ef440853fff6499fffaa684a102769c86ffca1"
+    },
+    {
+      "path": "experiments/fixed5_ir4750_original_style_v1/tasks.json",
+      "sha256": "73f79a0f15fb343b4c71935016ef67e72480c19c5d31fd7c4beebc70203f1ebc"
+    },
+    {
+      "path": "experiments/fixed5_ir4750_original_style_v1/heldout_tasks.json",
+      "sha256": "74e76d1cae581098daa507f93229376176f3d20b0626bcdd783bee37115c28ef"
+    },
+    {
+      "path": "experiments/fixed5_ir4750_original_style_v1/original_split.json",
+      "sha256": "dfaa474e385f231d6f735d4c283aacd7a9fca2e77710369d07596494700f3870"
+    }
+  ],
+  "export_files": {
+    "train4750.json": "e28b1e34f2cb81b898cbf144241a12e885dea3acd9356e644e7bb61311fec1ca",
+    "summary.json": "094744af709b3ad264ab010824642be64f6a9f2863fbee0e8777a4136c4fee08",
+    "validation250.json": "3b60598b2370b85fb41e4fba104eb218a9afd734eeb0a89b65d052036048ee69",
+    "split.json": "4cc8bd36656c73888c7df7b5fb1626ff73a6cf6d8314dbec10775432424d319f",
+    "tasks.json": "803f5429084c54f5897484ebc9218da6c9326030e0138570f30b74d67020cb80"
+  },
+  "export_date": "2026-11-04",
+  "transformation": "Preserve task IDs/prompts/categories and original 4750/250 split. Remove fixed-frame/dimension renderer metadata; append split to every record. No task prompts rewritten."
+}

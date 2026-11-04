@@ -1,0 +1,4538 @@
+[
+  {
+    "id": "fix5_816ce38038a2",
+    "prompt": "A person pushes a crate to tip it into a shallow bin.",
+    "prompt_zh": "一个人推木箱使其倾倒入浅箱中。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_2c2e72e87c97",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_90d624778a15",
+    "prompt": "Two people stand back to back and slowly lower themselves into a sitting squat.",
+    "prompt_zh": "两个人背靠背站着，慢慢下蹲成坐姿。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "human800_ade5bd4e1ad0",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_b4062bfa57b4",
+    "prompt": "A person lifts a bucket from the ground sideways.",
+    "prompt_zh": "一个人侧身把水桶从地上提起来。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_5286841c6962",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_6fa09a94d473",
+    "prompt": "A puppy paws a ball, causing it to bounce lightly off a step.",
+    "prompt_zh": "一只小狗用爪子拨动一个球，球轻轻弹离一个台阶。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_19f0409b1ee3",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_bbdf5fb5201c",
+    "prompt": "A man lifts one foot onto a wooden crate.",
+    "prompt_zh": "一个男人把一只脚抬到木箱上。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_8d9595ad0894",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_b06ea3b88a3d",
+    "prompt": "A dog drags a blanket across a carpet.",
+    "prompt_zh": "一只狗在地毯上拖着一条毯子。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact",
+      "deformation"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_50b5be272540",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_988e73a5e3fa",
+    "prompt": "A small tank engine gently reverses, easing its single carriage backward along straight track.",
+    "prompt_zh": "小型水柜机车缓缓倒车，牵引唯一的车厢沿直轨后退。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_639a4cec1768",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d7afe28a8c8f",
+    "prompt": "A sphere is lifted from the floor and set down on a low step.",
+    "prompt_zh": "一个球被从地面提起，放到低台阶上。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 1,
+    "source_id": "atom_123f3c8698f6",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_c3e1e6adda3c",
+    "prompt": "A bird hops onto a low box and pecks a seed on its lid.",
+    "prompt_zh": "一只鸟跳上低箱子，啄箱盖上的种子。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_67709b95a976",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d3d78ac02299",
+    "prompt": "A brown dog bounds over a rod propped slightly above the floor.",
+    "prompt_zh": "一只棕色的狗跃过一根略微高于地面的横杆。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_509db62a6760",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_dc86822d36c7",
+    "prompt": "A small spacecraft slowly pitches its nose down.",
+    "prompt_zh": "一艘小航天器缓缓机头下倾。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_c52975faa8be",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_65962f099119",
+    "prompt": "A rat rubbing its nose with the back of a forepaw.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_e4ba8df65990",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_aceeac27e1d2",
+    "prompt": "A seaplane skims across water, gains speed, and rises into the air.",
+    "prompt_zh": "一架水上飞机贴着水面加速滑行，随后升空。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_359e22472b25",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_b2cde6a85ab2",
+    "prompt": "A cylinder rolls sideways off a platform and bounces on the floor.",
+    "prompt_zh": "圆柱从平台侧面滚落，在地面上弹跳。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_d26ef220a856",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_541bc41d6484",
+    "prompt": "Two rabbits shove a turnip together through a gap in a fence.",
+    "prompt_zh": "两只兔子一起把一颗芜菁推过篱笆的缝隙。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_841768028801",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_9ff34a49911d",
+    "prompt": "A cube is passed through a wide ring held above a flat surface.",
+    "prompt_zh": "一个立方体被递过一个平放在平面上方的宽环。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 1,
+    "source_id": "atom_b9d4ec537b40",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_e1aac402a103",
+    "prompt": "A horse pushes up onto its forelegs and climbs to standing.",
+    "prompt_zh": "一匹马先撑起前腿，再撑起站立。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_16340107d2f4",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_789793eb660d",
+    "prompt": "A squirrel pulls a dried corn cob toward a tree base.",
+    "prompt_zh": "一只松鼠把一根干玉米棒拖向树根。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_eea3a0a58099",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_066964113ed2",
+    "prompt": "A person walks with a springy step while gripping a long wooden stick upright.",
+    "prompt_zh": "一个人脚步轻快，竖直握着一根长木棍。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_39dc3e306f0c",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_60f3f8d70c84",
+    "prompt": "A domino topples backward onto a low ledge behind it.",
+    "prompt_zh": "一块骨牌向后倒下，落在身后的矮台上。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "translation",
+      "contact",
+      "domino"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_2c1733b717a8",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_184248641b49",
+    "prompt": "A disc rolls into a hollow box and stays inside.",
+    "prompt_zh": "一个圆盘滚进空心盒子，留在里面。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_685c591aedca",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d686d65fa265",
+    "prompt": "A spacecraft leans into a lazy turn and coasts onward.",
+    "prompt_zh": "一艘航天器侧倾缓慢转弯后继续滑行。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_a2c2067799f4",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_9db63f7f0017",
+    "prompt": "A tern glides with narrow pointed wings and a deeply forked tail.",
+    "prompt_zh": "一只燕鸥展开狭长的尖翼滑翔，尾羽深分叉。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_4f7f45ce7b77",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_cabc88bb9c21",
+    "prompt": "A small airplane banks gently around a single balloon.",
+    "prompt_zh": "一架小飞机绕着一个气球轻轻倾斜转弯。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_cae3ca4845c3",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_6de17715fa6d",
+    "prompt": "A short bus rounds a corner and drives away down the street.",
+    "prompt_zh": "一辆短巴士转过街角，沿街道驶离。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_adb3089f7f0a",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_15f94cebf509",
+    "prompt": "A hiker leaps over a narrow stream using a flat rock.",
+    "prompt_zh": "一名徒步者借助一块平石跃过窄溪。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_d73ce23ceabd",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4af9991efad8",
+    "prompt": "A cloth drapes over a fence rail and hangs across it.",
+    "prompt_zh": "一块布搭在栅栏横木上并横挂其上。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "deformation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_04e10724ad12",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_6580f929038f",
+    "prompt": "A person walks up a ramp carrying a tray of cups.",
+    "prompt_zh": "一个人端着放有杯子的托盘走上斜坡。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_11a3c1f4f687",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_7aec21e861f8",
+    "prompt": "A car rolls straight between two small blocks without touching them.",
+    "prompt_zh": "一辆汽车在两个小块之间直线滚动，没有碰到它们。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_26ea914c4416",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_2174ecb343ca",
+    "prompt": "A block glides down a curved board and pushes a peg aside.",
+    "prompt_zh": "一个方块沿弯曲板滑下，把桩推到一边。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_b917dd000cc7",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4d0721cadc14",
+    "prompt": "A hummingbird hovers in place, wings a blur beside a slender body.",
+    "prompt_zh": "一只蜂鸟悬停原地，双翼在纤细身躯旁快速振动。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_2abf5753f132",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_c2c771dc9a29",
+    "prompt": "A person rests a small bucket on their shoulder and turns.",
+    "prompt_zh": "一个人把小桶扛在肩上转身。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "contact",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_30c7040c9c96",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_25e51fc3a72d",
+    "prompt": "A glider rotates its wings level and glides straight out of a turn.",
+    "prompt_zh": "一架滑翔机把机翼转平，从转弯中直线滑出。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "rotation",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_9cf660e620ea",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_f68cacdb399e",
+    "prompt": "A cylinder leans on a box edge and slips down to rest on the floor.",
+    "prompt_zh": "一个圆柱靠在箱子边缘，滑落下来停在地面。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_f72c0f2bb41b",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_379ab2789330",
+    "prompt": "A person lowers a rigid board into a wide gap in a low stand.",
+    "prompt_zh": "一个人把一块硬板向下放入矮支架的宽间隙中。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_f0bc75af9a56",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_029bf7df77e3",
+    "prompt": "A person balances on one foot on a small block and adjusts the standing knee.",
+    "prompt_zh": "一个人一只脚站在小块上保持平衡，并调整支撑腿的膝盖。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "contact",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_3f294a5f2c20",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_11861d8a79ab",
+    "prompt": "A ball rolls along a tray bottom and bumps into the side wall.",
+    "prompt_zh": "一个球沿托盘底部滚动，撞上侧壁。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_c84066f9c26f",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_5cd9e11389f9",
+    "prompt": "A person treads water upright, sculling hands and alternating slow leg kicks.",
+    "prompt_zh": "一个人直立踩水，双手划水，双腿交替缓慢蹬踢。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_9d5333f93fe4",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0ae245640156",
+    "prompt": "A police sedan rounds a wide bend, its roof staying steady as the body arcs.",
+    "prompt_zh": "一辆警用轿车绕过宽阔弯道，车身转弯时车顶保持平稳。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_20c308b9157d",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4563144cfc92",
+    "prompt": "A dog taps a ball so it hops over a tiny ridge.",
+    "prompt_zh": "一只狗顶球，让球跳过小凸脊。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_cb7083cf5a98",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_bd6a12f37642",
+    "prompt": "A jogger runs straight ahead while wearing a backpack.",
+    "prompt_zh": "一名慢跑者背着背包径直向前跑。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_92ae73f19f13",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_98131a3b683f",
+    "prompt": "A sailboat rises over a gentle swell, sail tightening as the bow lifts.",
+    "prompt_zh": "帆船越过缓浪，船首抬起时帆也绷紧。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation",
+      "deformation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_a98da2b803e1",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_15fa1c278512",
+    "prompt": "A person jumps rope with elbows tucked and rope passing low.",
+    "prompt_zh": "一个人手肘收拢、绳子低低掠过跳绳。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "translation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_b5492f8afb5a",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_9fbf5c0cfb6a",
+    "prompt": "A ball is rolled under a low bar and into a short open tunnel.",
+    "prompt_zh": "一个球从低横杆下方滚过并进入一段短而敞开的隧道。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_d22ab491ac08",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_dd5c47ac307a",
+    "prompt": "A quadcopter tilts forward and glides forward.",
+    "prompt_zh": "一架四旋翼飞行器前倾并向前滑行。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_031e83dd7e86",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_75ead6af01ff",
+    "prompt": "A helicopter descends steadily with its body held level, rotor turning.",
+    "prompt_zh": "一架直升机机身保持水平，旋翼转动，稳步下降。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_71b07f2b7a5a",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3eba40023641",
+    "prompt": "A cat leaps onto a stack of two blocks.",
+    "prompt_zh": "一只猫跳上两块积木堆。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_ca08edd7e92d",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_8a3245d0781e",
+    "prompt": "A rabbit pushes a light ball with its nose, sending it rolling.",
+    "prompt_zh": "一只兔子用鼻子推一个轻球，把球滚出去。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_c20c1bd68fd0",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_06926463d550",
+    "prompt": "A frog leaps from a wide leaf onto a low wall.",
+    "prompt_zh": "一只青蛙从宽叶子跳到矮墙上。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_c374247723b7",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_f367f2fdb39e",
+    "prompt": "A cube slips off a cube's tilted top and hits the ground.",
+    "prompt_zh": "一个立方体从倾斜的立方体顶部滑落，撞到地面。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_5eca598a0cb8",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_59e59f6e01a5",
+    "prompt": "A hamster walks across a narrow plank bridging two blocks.",
+    "prompt_zh": "一只仓鼠走过连接两块方块的窄木板。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_ef9329aa55bf",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_03efced3d805",
+    "prompt": "A short post tips when a ball is tossed against its middle.",
+    "prompt_zh": "一个球被抛向短柱中部，短柱倾倒。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_0d7dcb9b6759",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4533a99980b3",
+    "prompt": "A man jogs while carrying a guitar by its neck at his side.",
+    "prompt_zh": "一名男子慢跑时手握琴颈把吉他提在身侧。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "articulation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_feff1ef61c54",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_2bc18bd5f8eb",
+    "prompt": "A snake travels away in a straight line, tail vanishing last across open ground.",
+    "prompt_zh": "一条蛇沿直线远去，尾巴最后消失在开阔地面上。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_f12dfdc8d812",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_13d9206d8066",
+    "prompt": "A disk is pushed along a low ramp and slides into a shallow tray.",
+    "prompt_zh": "一个圆盘被沿低斜坡推动并滑入一个浅托盘。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_4e965ff0a9a5",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_bc12e42afb65",
+    "prompt": "A heron glides low with legs trailing behind.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atomic50_ee9c66b8323c",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_edf219e5f48b",
+    "prompt": "A woman rolls a wheelbarrow full of soil across a yard.",
+    "prompt_zh": "一个女人推着装满泥土的独轮车穿过院子。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_9ab54088b410",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3f80c17c5195",
+    "prompt": "A puppy drags a stuffed toy by its ear across a tiled floor.",
+    "prompt_zh": "一只幼犬叼着毛绒玩具的耳朵把它拖过瓷砖地面。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact",
+      "deformation"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_dba1b4de752e",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_e220b97b9401",
+    "prompt": "A wide square frame moves along a stationary narrow square beam.",
+    "prompt_zh": "",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "fix5_e220b97b9401",
+    "source_file": "fixed5_anchor_v1/tasks5000_v1/topup/candidates.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_bc88870f5072",
+    "prompt": "A rock acts as a fulcrum while a board lifts a crate.",
+    "prompt_zh": "一块石头充当支点，一块板抬起一个木箱。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_305174766f38",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_00e61d6318e9",
+    "prompt": "A twin-engine airplane rolls into a shallow descending turn over open sky.",
+    "prompt_zh": "一架双引擎飞机在开阔天空中滚转进入一个浅下降转弯。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_c63cdd945ed9",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_2be29bfe8a40",
+    "prompt": "A crop duster lifts off a field strip and banks over the fields.",
+    "prompt_zh": "一架农用飞机从田间跑道起飞，在田野上空倾斜转弯。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_964fc483a59b",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_ca84d7a647a2",
+    "prompt": "A cube slides down a slope and knocks over two dominoes.",
+    "prompt_zh": "一个方块滑下斜坡并撞倒两个多米诺骨牌。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact",
+      "rotation",
+      "domino"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_e5a867de151a",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_6fd89081355d",
+    "prompt": "An open umbrella dips its rim forward and gathers its ribs into a slim closed form.",
+    "prompt_zh": "一把张开的雨伞将伞缘前倾下垂，伞骨收拢成细窄的闭合形态。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "articulation",
+      "deformation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_dc85a5e0995e",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_eaf2c2c724b4",
+    "prompt": "A rabbit hops across a row of two low blocks.",
+    "prompt_zh": "一只兔子跃过两个矮方块排成的一列。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_1f1b0e65dd35",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_15aa140a213b",
+    "prompt": "A ball crosses beneath a small bridge made of one block.",
+    "prompt_zh": "一个球从一块方块搭成的小桥下方穿过。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_55cff6990224",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_2685e90c81aa",
+    "prompt": "A bird tucks its head back to scratch its nape with one foot.",
+    "prompt_zh": "一只鸟把头缩回，用一只脚挠后颈。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_77ac9fb4678d",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0591090f5614",
+    "prompt": "A small empty rowboat gently bobs on calm water, bow lifting slightly.",
+    "prompt_zh": "一只空着的小划艇在平静水面上轻轻起伏，船头微微抬起。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_001d193ef766",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_9a98f695916d",
+    "prompt": "A station wagon eases around a gentle left bend, its roof staying level.",
+    "prompt_zh": "一辆旅行车缓缓绕过平缓左弯，车顶保持水平。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_de26bf91d824",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_90aa23f1e295",
+    "prompt": "A short train comes to a stop partway around a broad curved track.",
+    "prompt_zh": "一列短编组列车在宽阔弯道的中途停下。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_bea5994584ba",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_fa9453415ed4",
+    "prompt": "A canoeist rotates the torso and finishes one strong forward stroke.",
+    "prompt_zh": "独木舟手转动躯干，完成一次有力的前划。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_44ddc62282f5",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_cfe7aba0cc61",
+    "prompt": "A short post wobbles and falls when a cart bumps it.",
+    "prompt_zh": "一辆小车撞到短柱时，短柱摇晃并倒下。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "contact",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_4cd347ced03c",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_5785a2609dc9",
+    "prompt": "A small taildragger airplane banks into a gentle wide turn.",
+    "prompt_zh": "一架小型后三点飞机倾斜进入一个平缓的宽阔转弯。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_c69050dfa140",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_2f74d17ab231",
+    "prompt": "An upright book on a table gradually closes its cover over the pages.",
+    "prompt_zh": "桌上竖立的一本书，封面逐渐盖过书页合上。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_61d6a488c4e0",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_7168779e2dcd",
+    "prompt": "A quadcopter tilts into a gentle turn while climbing.",
+    "prompt_zh": "一架四旋翼飞行器倾斜转入平缓的上升转弯。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_f935dce49e77",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3e10ee8d36eb",
+    "prompt": "A person steps sideways along a ledge with arms out for balance.",
+    "prompt_zh": "一个人手臂张开、侧步沿着窄边移动。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_1628dac36d7e",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0ed6de673860",
+    "prompt": "A domino is nudged and falls onto a second domino.",
+    "prompt_zh": "一块骨牌被轻推后倒向第二块骨牌。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "translation",
+      "contact",
+      "domino"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_d739692eab95",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_1f40197203b1",
+    "prompt": "A small sailboat's boom and sail swing to one side and hang steady.",
+    "prompt_zh": "小帆船的帆桁和船帆摆向一侧并稳稳停住。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_894bc7bcb038",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0acb8fffe004",
+    "prompt": "A man stops a slowly rolling ball with a gentle foot touch.",
+    "prompt_zh": "一个男人用脚轻碰停住缓缓滚动的球。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_05e38bb4eb1b",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_e35aca531bb5",
+    "prompt": "A sphere pushes a cylinder sideways until it leans on a low board.",
+    "prompt_zh": "一个球把圆柱推向侧面，直到它靠在矮板上。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_49efe1f39f3c",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_517fbfcea2a2",
+    "prompt": "A boy walks along a gentle curve while pushing a shopping basket.",
+    "prompt_zh": "一个男孩沿平缓弧线行走，推着购物篮。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "articulation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_56c9191bc04f",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_78edad717527",
+    "prompt": "A flatfish flips its body flat against the sand.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "rotation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_d54c47df0a0d",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d01edab19884",
+    "prompt": "A ring is pushed sideways along the floor until it meets a post.",
+    "prompt_zh": "圆环沿地面被侧推，直到碰上立柱。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 1,
+    "source_id": "atom_656f6dae162b",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4c9a2104677c",
+    "prompt": "A cat sits upright and swishes its tail slowly across the floor.",
+    "prompt_zh": "一只猫端坐着，尾巴在地面上缓慢扫动。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation",
+      "rotation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_21d23d2f5d5f",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_e462ecd7d4cf",
+    "prompt": "A cat jumps over a small block.",
+    "prompt_zh": "一只猫跳过小积木。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_ffa1e74383f1",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_52838d4b4d75",
+    "prompt": "A wireframe cube grows uniformly while its center stays fixed.",
+    "prompt_zh": "",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "deformation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "fix5_52838d4b4d75",
+    "source_file": "fixed5_anchor_v1/tasks5000_v1/topup/candidates.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_5e2088d80f7b",
+    "prompt": "A sedan reverses slowly along a gently curving driveway toward the viewer.",
+    "prompt_zh": "一辆轿车沿着缓缓弯曲的车道慢慢倒车，朝向观众驶来。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_29b3bec488b6",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_6d53f1fc0e44",
+    "prompt": "A person walks along a gentle curve while holding a small bag.",
+    "prompt_zh": "一个人沿平缓的弧线行走，手里拿着一个小包。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "articulation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_059e89372c72",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_59d8bc14e8b5",
+    "prompt": "A person dribbles a ball steadily with one hand.",
+    "prompt_zh": "一个人单手稳定运球。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "contact",
+      "translation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_10efed82df45",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_273e924d43b2",
+    "prompt": "A book stands upright on its bottom edge and its cover falls open sideways.",
+    "prompt_zh": "一本书竖立在底边上，封面侧向翻开落下。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_b6d10be46ea7",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_f521d46d0f0e",
+    "prompt": "A cat pushes down one end of a balance board with its paw.",
+    "prompt_zh": "一只猫用爪子压下一块平衡板的一端。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_e15e367db971",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_c83b94aa908b",
+    "prompt": "A ball is nudged off a block and lands in a tray below.",
+    "prompt_zh": "一个球被从方块上轻推落下，落到下方托盘里。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_bf9d4ef5eda3",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_639668f09d00",
+    "prompt": "A sea turtle dives downward with flippers angled.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atomic50_60fe26ab8679",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_2ef2b6072e99",
+    "prompt": "A ball rolls up onto a small platform and through a ring at its edge.",
+    "prompt_zh": "一个球滚上小平台并穿过平台边缘的圆环。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 1,
+    "source_id": "atom_9ac258ea75c0",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_24af577d0b5b",
+    "prompt": "A hanging sphere swings low and rolls a ball along the floor.",
+    "prompt_zh": "悬挂的球体低摆并沿地面滚动一个球。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_9eb419b348ef",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_10f146e84ade",
+    "prompt": "A cat on a bed steps forward and sinks into a low front stretch.",
+    "prompt_zh": "一只猫在床上向前一步，沉入低低的前身伸展。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_9231fc59c194",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_e181f419fc4a",
+    "prompt": "A person taps a suspended metal plate hanging from a stand, and the plate swings away.",
+    "prompt_zh": "一个人轻拍挂在支架上的金属板，金属板向外摆开。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "contact",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_362423e99f69",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_af6c19918211",
+    "prompt": "A rubber loop on two horizontal rods stretches as the rods separate along a table.",
+    "prompt_zh": "一个橡胶圈套在两根水平杆上，随着杆沿桌面分开而拉伸。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "deformation",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_e32fd3b4800c",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_9fb765bb5e4d",
+    "prompt": "A person swings a small bucket back and forth by its handle.",
+    "prompt_zh": "一个人提着提手让小桶来回摆动。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_622b9b8210da",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_054d5d9d7fff",
+    "prompt": "A squashed foam ball slowly springs back to round after the plate lifts off.",
+    "prompt_zh": "被压扁的海绵球在平板抬起后慢慢弹回圆形。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "deformation",
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_f2698a12ef3b",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_341c327ff935",
+    "prompt": "A dog trots along a curving trail.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atomic50_d550c5f0edc5",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_9a20ed5dd62d",
+    "prompt": "A person leans sideways to sweep under a low overhang with a broom.",
+    "prompt_zh": "一个人侧身倾斜，用扫帚在低矮遮挡物下扫地。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "articulation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_f82909a2db8f",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_ac9e4a9515fc",
+    "prompt": "A ball rolls down a ramp and pushes a small block across a tray.",
+    "prompt_zh": "一个球沿斜坡滚下，把小方块推过托盘。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_613cd17b061a",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d7113b2f8ce5",
+    "prompt": "A bird flutters up to a high bar and perches.",
+    "prompt_zh": "一只鸟扑动着飞向一根高杆并栖息。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_2216707d51e3",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_c1903a2a8ed6",
+    "prompt": "A duck slides a ball across a wet plank with its beak.",
+    "prompt_zh": "鸭子用嘴把球推过湿木板。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_6b1651dfe847",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_afb71198db6a",
+    "prompt": "A car hood rises steeply until nearly vertical before easing to a stop.",
+    "prompt_zh": "汽车引擎盖陡直掀起接近竖直，然后缓缓停住。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_50b2418223a3",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_9093f7a2bb64",
+    "prompt": "Two friends raise their palms and meet in a crisp overhead high-five.",
+    "prompt_zh": "两位朋友举起手掌，在高处清脆地击掌。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "articulation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_7f0b4ac12508",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_43a785841ccb",
+    "prompt": "A ball rolls down a short ramp directly through an open tunnel.",
+    "prompt_zh": "一个球沿短坡滚下，直接穿过一段敞开的隧道。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_bc099f6e281b",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_454954d32156",
+    "prompt": "A ball rolls around a block and strikes a domino from the side.",
+    "prompt_zh": "一个球绕过方块，从侧面撞上一张骨牌。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact",
+      "domino"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_b95f5dc575db",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_e7d476454174",
+    "prompt": "A delivery van drives up a short ramp onto a roadside platform.",
+    "prompt_zh": "一辆送货车沿短坡驶上路边平台。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_d96c15825340",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3fecffb69584",
+    "prompt": "A duck pushes a ball toward a floating ring.",
+    "prompt_zh": "鸭子把浮球推向一个浮圈。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_131b6683d453",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4a2d61a60b9e",
+    "prompt": "A ball drifts toward a floating ring and settles inside it.",
+    "prompt_zh": "一个球漂向一个漂浮圆环并停在环内。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_879521c22311",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_98676242f115",
+    "prompt": "A dump truck tips its bed upward until it points at the sky.",
+    "prompt_zh": "一辆自卸卡车将车厢向上倾斜，直到指向天空。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "articulation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_74e87fdb2ec7",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_772457d048f2",
+    "prompt": "A car turns gently while passing a single beach ball.",
+    "prompt_zh": "一辆汽车经过一个沙滩球时轻轻转弯。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_38ff41245642",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_2968e4c3d4b7",
+    "prompt": "A rabbit lands on a low block and crouches to stay.",
+    "prompt_zh": "一只兔子落在矮方块上并蹲伏停留。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_885769ca852f",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4e6b673ab66c",
+    "prompt": "A ball bounces off a soft pad and knocks a small block over.",
+    "prompt_zh": "一个球从软垫弹起并撞倒一个小方块。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_6c6488545ed4",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_bec911efcbbb",
+    "prompt": "A person walks slowly with dragging feet and a bowed head.",
+    "prompt_zh": "一个人低着头，拖着脚步缓慢行走。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_53a0af1c7052",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_59d1acf8414c",
+    "prompt": "A magnolia bud slowly opens its three thick outer petals.",
+    "prompt_zh": "一个玉兰花苞缓缓张开三片厚实的外层花瓣。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "deformation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_3ebadc117a03",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_397c0d86c200",
+    "prompt": "A dolphin bursts straight up from the sea.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_ebb8b7365c2c",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_fc1f227a7dfe",
+    "prompt": "A ball rolls around a low block and enters a short open tunnel from the side.",
+    "prompt_zh": "一个球绕过低矮方块并从侧面进入一段短而敞开的隧道。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_54ce2b73c2a0",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_ca79cf6045fc",
+    "prompt": "A cube slides across a cube's top face and stops at the far corner.",
+    "prompt_zh": "一个立方体滑过另一个立方体的顶面，停在远处的角上。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_449cb5b0a553",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_36f74627c292",
+    "prompt": "Two people stand side by side, turn their torsos, and lift a box from the floor to one side together.",
+    "prompt_zh": "两个人并排站立，转动上身，一起把箱子从地面抬到身体一侧。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_00caa2442147",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_89d903ebe9e9",
+    "prompt": "A top's pointed tip stays fixed as the body wobbles around it.",
+    "prompt_zh": "一个陀螺的尖端固定不动，身体绕它摇晃。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_863422f39649",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_fe820f2ec705",
+    "prompt": "A figure skater glides backward with arms folded in front.",
+    "prompt_zh": "一名花样滑冰者双臂抱在身前向后滑行。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_52016e30889b",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_b8a4e497b10e",
+    "prompt": "A cat crouches low and shifts its weight onto its hindquarters before a leap.",
+    "prompt_zh": "一只猫低伏，将重心移到后躯准备跳跃。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_f0aa19376335",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_e15d3f4f868d",
+    "prompt": "A ball rolls into a short open tunnel tilted slightly upward, slowing inside.",
+    "prompt_zh": "一个球滚入一段略微向上倾斜的短而敞开的隧道，在其中减速。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_0a8019fe6eeb",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_b5b395d0b20b",
+    "prompt": "A car rolls backward down a shallow ramp away from a platform.",
+    "prompt_zh": "一辆汽车从平台沿浅坡倒退滑下。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_09ba51278a4a",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_7de34fec3b56",
+    "prompt": "A cat sits and taps the floor with the tip of its tail.",
+    "prompt_zh": "一只猫坐着，用尾巴尖轻敲地面。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_989d5c6b2e4f",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_419dc3516ae4",
+    "prompt": "A hamster pushes a balance board with its nose to make it tilt.",
+    "prompt_zh": "一只仓鼠用鼻子推平衡板，使它倾斜。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_a1413e9fcce0",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_a788ac78ec19",
+    "prompt": "A person tips a small bucket over a low block to empty it.",
+    "prompt_zh": "一个人把小桶倾倒在矮木块上倒空。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_825320b9bb2d",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_f7dd5b46a34a",
+    "prompt": "A duck waddles around a small stump, turning as it steps.",
+    "prompt_zh": "一只鸭子绕着小树桩摇摇摆摆地走，边走边转向。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "rotation",
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_077b4b6001fd",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_5ab5fe5f94e7",
+    "prompt": "A broad plate crushes one cushion half, leaving the other half puffed and round.",
+    "prompt_zh": "一块宽板压住坐垫的一半，另一半保持鼓起圆润。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "deformation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_171074a2fe84",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4c000d41b247",
+    "prompt": "A snake raises its head and glides in a slow arc, tail trailing behind.",
+    "prompt_zh": "一条蛇抬起头部，缓慢地沿弧线滑行，尾巴拖在后面。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "rotation",
+      "deformation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_550e5ba441f4",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3e461fef3f8a",
+    "prompt": "A desk lamp angles its shade to look behind itself.",
+    "prompt_zh": "一盏台灯调整灯罩朝自己后方看。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "articulation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_67ab2e4aab1f",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_44f1f01a8b00",
+    "prompt": "Two people swing a heavy bag together forward and back.",
+    "prompt_zh": "两个人一起把沉重的袋子前后荡动。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_47316e5aef65",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3f0d25869a1b",
+    "prompt": "A standing block slides off the platform edge and tips over.",
+    "prompt_zh": "一个直立方块滑出平台边缘并翻倒。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_16b320d4ae89",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_1a463bd37e35",
+    "prompt": "An empty canoe rocks from side to side on still water.",
+    "prompt_zh": "一只空独木舟在静水中左右摇晃。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_e3a19301fbce",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_08edba6245ac",
+    "prompt": "A man rolls a cart onto a low platform and stops.",
+    "prompt_zh": "一个男人把小車推上一个矮平台后停住。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_bfef443b7fd5",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_bb7ea21a26fc",
+    "prompt": "Two people lock hands and lean in opposite directions.",
+    "prompt_zh": "两个人紧握双手向相反方向倾斜。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "contact",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "human800_1c4ba1178332",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d59994c55e99",
+    "prompt": "A cow turns around slowly.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "rotation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_7ac15e90019b",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_85ee12aa0cad",
+    "prompt": "Parked car front wheels slowly pivot fully to the left lock.",
+    "prompt_zh": "停放的汽车前轮缓慢地转到左满舵位置。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_ee6af37eccf4",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_542799114617",
+    "prompt": "A ball rolls along the floor and pushes a domino over.",
+    "prompt_zh": "一个球沿地面滚动，把一张骨牌推倒。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact",
+      "domino"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_8a6fea8c5ccc",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_a8d3c9531917",
+    "prompt": "A person on rollerblades leans into a turn with trailing leg extended.",
+    "prompt_zh": "一名穿直排轮滑鞋的人倾斜转弯，后腿伸展。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "rotation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_643573b0cf33",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0e86702d8f46",
+    "prompt": "Two people walk side by side with their inner arms linked together.",
+    "prompt_zh": "两个人并肩行走，内侧的手臂挽在一起。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_93c07cb7eb9b",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_74da229bf0cb",
+    "prompt": "A pigeon hops down onto a pavement grate.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atomic50_36acc3e0256c",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_cf4d1c3f616e",
+    "prompt": "A puppy scurries through a ring propped on a stack of books.",
+    "prompt_zh": "一只小狗快步从架在书堆上的环中穿过。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_76fa2744a192",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_cb35b3823b40",
+    "prompt": "A ball drops from above and lands on one domino, tipping it flat.",
+    "prompt_zh": "一个球从上方落下，砸在一张骨牌上，把它压平。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact",
+      "domino"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_cec04c463c99",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d9f2e85400dd",
+    "prompt": "A person runs along a narrow path beside a tall hedge.",
+    "prompt_zh": "一个人沿着高树篱旁的狭窄小路奔跑。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_400f59fb1f52",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_40cb294fdc97",
+    "prompt": "A cylinder rolls through a wide ring standing on the floor.",
+    "prompt_zh": "圆柱滚过立在地面上的一个宽环。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_3d0747a26c8a",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_a1e7bcbcc44b",
+    "prompt": "A duck paddling rapidly away, leaving a widening V-shaped wake.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atomic50_c03c68d6d4e7",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_5b8073d125b2",
+    "prompt": "A submarine surfaces slowly, its hull breaking clear of the water.",
+    "prompt_zh": "一艘潜艇缓慢浮出水面，艇身破水而出。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_8854aae01bf6",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_f3e2dcb09f05",
+    "prompt": "A boy uses a paddle to hit a ping pong ball.",
+    "prompt_zh": "一个男孩用球拍击打乒乓球。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_bc0e99d889c0",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_7a0013b805d1",
+    "prompt": "A ball falls straight through a ring lying flat on a low platform.",
+    "prompt_zh": "一个球竖直穿过平放在矮平台上的圆环。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_97f1b5adb0d1",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0b361ecf906c",
+    "prompt": "An otter cub walks forward holding a mussel shell in its mouth.",
+    "prompt_zh": "一只小水獭向前行走，嘴里叼着一片贻贝壳。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_755cfbc04c39",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_e00d3db95438",
+    "prompt": "A ball falls vertically onto one of three spaced dominoes, causing only that domino to tip.",
+    "prompt_zh": "一个球垂直落到三个间隔排列的多米诺骨牌中的一个上，只使那个骨牌倾倒。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact",
+      "domino"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_50588c3cb34b",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0b4a86833159",
+    "prompt": "A disc rolls between two blocks and taps a ball beyond them.",
+    "prompt_zh": "一个圆盘从两个方块间滚过，碰到后面的球。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_c5ca7f747e4b",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_695c6a8515e9",
+    "prompt": "A ball rolls into a cube and both drift across the floor.",
+    "prompt_zh": "一个球滚向立方块，两者一同滑过地板。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_01a56b79de3d",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_20caf4601752",
+    "prompt": "A cylinder wobbles and falls sideways onto a short stopper.",
+    "prompt_zh": "一个圆柱摇晃后侧倒，压在矮挡块上。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_193a02d6783c",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_fcd18394651e",
+    "prompt": "A block placed on the raised seesaw arm makes it swing down.",
+    "prompt_zh": "放在跷跷板翘起臂上的方块使它向下摆动。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_90a45e963bca",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_8ec28267b7c6",
+    "prompt": "A small cone moves sideways until its axis aligns with a stationary upright cylinder.",
+    "prompt_zh": "",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "fix5_8ec28267b7c6",
+    "source_file": "fixed5_anchor_v1/tasks5000_v1/topup/candidates.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_77eb54c47a02",
+    "prompt": "A man steps in a skipping gait while holding a small balloon string.",
+    "prompt_zh": "一名男子蹦蹦跳跳地走着，手里牵着一根气球线。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "articulation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "human800_f2ecfccc9f9d",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_aab1866cc4ef",
+    "prompt": "A cube slides down a chute and knocks a small block aside.",
+    "prompt_zh": "一个立方体沿滑道滑下，把一个小方块撞到一边。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_abb561aaf9e0",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_8bec56481bec",
+    "prompt": "A cylinder rolls across a board and pushes another cylinder forward.",
+    "prompt_zh": "圆柱在板上滚动，把另一个圆柱向前推。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_4e64152ec06a",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_417f4254409c",
+    "prompt": "A thin stick pushes the last of four dominoes in a row, toppling the row backward.",
+    "prompt_zh": "一根细棍推动一排四张多米诺骨牌中的最后一张，使整排骨牌向后倒下。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "contact",
+      "domino",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_e362bab14828",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_09701f1ca12d",
+    "prompt": "Two dominoes stand on opposite sides of a ball; one tips and pushes the ball past the other.",
+    "prompt_zh": "两块多米诺骨牌立在球的两侧；其中一块倒下，把球推过另一块旁边。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "contact",
+      "translation",
+      "domino"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_246dcc1a2e14",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_97902e09fc8d",
+    "prompt": "A small boat turns slightly as the wind shifts behind its wide sail.",
+    "prompt_zh": "风从宽帆后方转向时，一艘小船微微改变航向。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "rotation",
+      "deformation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_545d8a64b4cd",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_fc9fd0f6d8c6",
+    "prompt": "A ball rolls under a low doorway-shaped opening and exits.",
+    "prompt_zh": "一个球从低矮门形开口下方滚过并离开。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_fa671c56f51d",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_6df5ddcb435b",
+    "prompt": "A ball rolls off a short ledge and collides with a ball balanced on a peg.",
+    "prompt_zh": "一个球从短台边滚落，撞上放在桩上的球。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_f76bcf45daa1",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_2ad5f7975740",
+    "prompt": "A ring drops from above onto a post and settles around it.",
+    "prompt_zh": "一个圆环从上方落下，套在立柱上。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_eb184af17c85",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_8c0a05338a58",
+    "prompt": "An umbrella resting handle-down on the floor opens upward over its shaft.",
+    "prompt_zh": "一把伞柄朝下立在地上的雨伞沿伞杆向上张开。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "articulation",
+      "deformation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_dd2f2a27879e",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_ed2088a0a411",
+    "prompt": "A flamingo opens its wings partially.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_3d9398f7e73b",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_515ee8df1ded",
+    "prompt": "A bucket is lowered onto the right end of a seesaw, making it sink.",
+    "prompt_zh": "一个水桶被放到跷跷板的右端，使这一端下沉。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_320f74b695a1",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_56327ad219b3",
+    "prompt": "A ball rolls under a bent wire arch resting on the floor.",
+    "prompt_zh": "一个球从放在地上的弯曲金属丝拱下滚过。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_c48d087fb5e2",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_97368493fb1e",
+    "prompt": "A person taps a ball sideways off a low box.",
+    "prompt_zh": "一个人把球从矮盒子上侧向拍开。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_2b4573b9f48b",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_fb0f756b28ad",
+    "prompt": "A person leans back and lifts one arm toward the sky.",
+    "prompt_zh": "一个人向后仰，一只手臂举向天空。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "articulation",
+      "rotation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_3f97729626f7",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_7981dd496ed3",
+    "prompt": "A fawn curls up to rest in the grass.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_f9fc32943e84",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0924a11f7210",
+    "prompt": "A millipede-like soil creature bends its body into a U along a rock.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_7bbe7ec381df",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d763de338d53",
+    "prompt": "A single bird glides down toward a gentle landing, wings flaring slightly.",
+    "prompt_zh": "一只鸟向下滑翔准备轻落，双翅略微张开。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_a9027788d3f5",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_50a48f69d81e",
+    "prompt": "A small plank suspended from a pivot at one end swings up and down about the pivot.",
+    "prompt_zh": "一块小木板一端悬挂在枢轴上，绕支点上下摆动。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_b8fd23542442",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_a4f916c874c2",
+    "prompt": "A person jumps down from the back of a parked truck and lands upright.",
+    "prompt_zh": "一个人从停着的卡车后部跳下，直立落地。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_f6f4c360ae92",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d00d8cb4d544",
+    "prompt": "A deep bottom drawer of a storage cabinet slides open slowly.",
+    "prompt_zh": "一个储物柜底部深抽屉缓慢滑开。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_4b4e7e2df6cf",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_f79dc1f17844",
+    "prompt": "A ball rolls off a block onto a ramp and slides into an open box.",
+    "prompt_zh": "一个球从方块滚上斜坡，滑入敞口盒子。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_c83ed0e835e0",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_8e95989106b9",
+    "prompt": "A squirrel rolls a pinecone through a wide ring on the ground.",
+    "prompt_zh": "一只松鼠让松果滚过地上的宽环。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_2cefed2ed0c1",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_7bb611341d8b",
+    "prompt": "A pony trots in a circle, short legs beating a steady rhythm.",
+    "prompt_zh": "一匹小马绕圈小跑，短腿踏出稳定节奏。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_51a6d1edc7c2",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_7189198ca19c",
+    "prompt": "A glider tilts its long wings and glides slowly downward across the sky.",
+    "prompt_zh": "一架滑翔机倾斜长翼，缓缓向下滑翔穿过天空。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_68e8ec90be49",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_7216ad6968b2",
+    "prompt": "A squirrel nudges a pinecone from a block onto a ramp.",
+    "prompt_zh": "一只松鼠把松果从方块上推落到坡道上。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_ac959e46fed2",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4de50032eb84",
+    "prompt": "A stag slowly bends its head to graze.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_5a4b23e6b313",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3f56c63630d6",
+    "prompt": "A mouse pulling a forepaw through its teeth.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_3852d68cae55",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_25d0aa807e97",
+    "prompt": "A ball rolls along a curved groove shaped like a gentle heart bend.",
+    "prompt_zh": "一个球沿呈柔和心形弯曲的浅槽滚动。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_f1990dd062bf",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4d09e9596c34",
+    "prompt": "A helicopter maintains a steady hover above a small boat, rotor spinning.",
+    "prompt_zh": "一架直升机在小船上空保持稳定悬停，旋翼旋转。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_0e686f6d8187",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_14e6270d4967",
+    "prompt": "A cable-car cabin sways gently as it climbs a steep inclined cable.",
+    "prompt_zh": "缆车车厢在攀爬陡峭的倾斜缆绳时轻轻摆动。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_04124fd6e4d6",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_ff8fb5168c81",
+    "prompt": "A cube tips off a step and lands flat against a second block.",
+    "prompt_zh": "一个立方体从台阶上翻落，平贴在第二个方块上。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_2263391231b1",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_11cc740a1e9e",
+    "prompt": "A station wagon descends a sloping driveway toward a sidewalk.",
+    "prompt_zh": "一辆旅行车沿倾斜车道下行驶向人行道。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_372fb04802ac",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_588c224edf33",
+    "prompt": "A bird pushes a ball into an open box and it drops inside.",
+    "prompt_zh": "一只鸟把球推进敞开的盒子，球落进去。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_bc37a4134567",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_07a8f4fc36fa",
+    "prompt": "A short bus slowly backs up a short incline.",
+    "prompt_zh": "一辆短巴士缓慢倒车上一个小坡。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_c0faa649bacb",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_7c6185250327",
+    "prompt": "A person kneels and gently bowls a ball forward along the floor.",
+    "prompt_zh": "一个人跪着，把球沿地面轻柔地向前滚出。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "articulation",
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "human800_3cf5f0828fcb",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_eb1b819cdc0b",
+    "prompt": "A large ring rolls across the floor and surrounds a stationary ball.",
+    "prompt_zh": "一个大圆环滚过地面并罩住一个静止的球。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_e0bbae4b2d9d",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_dc333b24676e",
+    "prompt": "A cylinder slides through a wide ring and comes out the other side.",
+    "prompt_zh": "一个圆柱滑过宽环并从另一侧穿出。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_51b7afda41a3",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_f6111bd87617",
+    "prompt": "A person lifts a small block onto a low platform.",
+    "prompt_zh": "一个人把小方块抬上矮台。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_9770afdc9112",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_ba09e8b8ad03",
+    "prompt": "A spider slides down a single slanting stem.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atomic50_e6fa4c95c804",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4f4303923f45",
+    "prompt": "A duck tips a light box over with its bill.",
+    "prompt_zh": "一只鸭子用嘴把一个轻盒子翻倒。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_09f97eae7b10",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_c25dd6a695be",
+    "prompt": "A domino topples and pushes a ball into a corner between two walls.",
+    "prompt_zh": "一张骨牌倒下，将球推入两墙之间的角落。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "domino",
+      "rotation",
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_6a07af42e36f",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_22a8b68ed21c",
+    "prompt": "A lever raises a small platform carrying a cube.",
+    "prompt_zh": "一根杠杆抬起一个载有立方体的小平台。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "articulation",
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_4eafae68a33a",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_04340550b4ea",
+    "prompt": "A person jumps rope with elbows tucked and forearms doing the turning.",
+    "prompt_zh": "一个人手肘内收，用前臂摇绳跳绳。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "human800_2f991c19a283",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0d9bb67ac92a",
+    "prompt": "A woman steps on a ball to halt it beside a tray.",
+    "prompt_zh": "一个女人踩住球，把它停在托盘旁。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_f859974632b3",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_f0de4382acce",
+    "prompt": "A person nudges a hinged door open with their shoulder while holding a box.",
+    "prompt_zh": "一个人用肩膀顶开铰链门，同时抱着一个箱子。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "articulation",
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_84b6dfd0c1cd",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_0bdc989b6236",
+    "prompt": "A cube slides across the floor and stops when it meets the edge of a low step.",
+    "prompt_zh": "一个立方体滑过地面，碰到低台阶边缘后停下。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_083d8d8f63f2",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3b7bf5f0190a",
+    "prompt": "A ball rolls down a gently curving chute and drops onto a wide ring below.",
+    "prompt_zh": "一个球沿微弯滑槽滚下，落入下方的宽环。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_bf6c97b4fe50",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_2e42ac919101",
+    "prompt": "A duck scoops a floating ball upward with its beak.",
+    "prompt_zh": "鸭子用嘴把浮球向上挑起。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_e8668510864e",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d8bb1474fc07",
+    "prompt": "A narrow drawer glides shut into a tall cabinet.",
+    "prompt_zh": "一个窄抽屉滑入高柜中关上。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_988f18bc8c0c",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_c8f85f5d0f18",
+    "prompt": "A ball rolls down a short ramp and knocks over a domino.",
+    "prompt_zh": "一个球沿短坡滚下，撞倒一张骨牌。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact",
+      "domino"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_b20205dcb04f",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_d546d4e14e77",
+    "prompt": "A hanging citronella candle rocks from a patio beam.",
+    "prompt_zh": "一支悬挂的驱蚊蜡烛在露台横梁上摇晃。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_cb4e5656be26",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_828bf8ad2f73",
+    "prompt": "A person skips rope with both feet together at a steady pace.",
+    "prompt_zh": "一个人双脚并拢，以稳定节奏跳绳。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "articulation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "human800_18ba642557f1",
+    "source_file": "human_motion_800_v1/mixed500_v1/tasks_new400.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_be1ed3f6c80a",
+    "prompt": "A helicopter rises straight up beside a tall building, rotor spinning.",
+    "prompt_zh": "一架直升机在高楼旁笔直上升，旋翼旋转。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_f0814546220a",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_689faf5952f5",
+    "prompt": "A domino is knocked by a swinging rod and falls onto a second domino.",
+    "prompt_zh": "一根摆动的杆撞到骨牌，它倒向第二块骨牌。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "contact",
+      "domino",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_3bd35dce0fbf",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_5fb126ec0914",
+    "prompt": "A metal pendulum bob on a fixed-length string swings above a wooden table.",
+    "prompt_zh": "一个系在定长细线上的金属摆锤在木桌上方摆动。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_1229bb828a11",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_56aa524a6544",
+    "prompt": "A desk lamp rotates its head to face the room corner.",
+    "prompt_zh": "一盏台灯转动灯头朝向房间角落。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "rotation",
+      "articulation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_f1e5628a971f",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_32028f8edd05",
+    "prompt": "A quadcopter tilts and circles slowly around a lamppost.",
+    "prompt_zh": "一架四旋翼飞行器倾斜并缓慢绕灯柱盘旋。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_4936a3d71b26",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_fe7df97b9031",
+    "prompt": "Two people tilt a long plank down together to rest one end on the ground.",
+    "prompt_zh": "两个人一起把长木板倾斜，让一端落到地面。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation",
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_43e2e4a7280b",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_af57ea66a632",
+    "prompt": "A sedan eases around a broad curve to the left, its body staying level and secure.",
+    "prompt_zh": "一辆轿车缓缓绕过宽阔左弯，车身保持平稳。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_3a4c5057f0c6",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_1a9b70b77c05",
+    "prompt": "A small airship hovers and rocks gently, fins tilting alternately.",
+    "prompt_zh": "一艘小飞艇悬停并轻轻摇晃，尾翼交替倾斜。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_20768e28dfb8",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_a9c89de18571",
+    "prompt": "A turtle crawls through shallow water, its legs paddling and shell partly submerged.",
+    "prompt_zh": "一只乌龟在浅水中爬行，四肢划水，龟壳半浸水中。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_620b157e4d14",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_62103e6050ac",
+    "prompt": "A person lifts a bucket by its rim from between their feet.",
+    "prompt_zh": "一个人抓住水桶的边缘，把它从两脚之间提起来。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_6563ef32423f",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3dc34af38408",
+    "prompt": "A hand pushes a hanging weight on a rope from a hook, and the weight swings to one side.",
+    "prompt_zh": "一只手把挂在钩子上的重物推到一侧，重物摆开。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "contact",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_089b90cf8c3b",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_44469520886e",
+    "prompt": "A gull sweeps past with wings swept back in a shallow downward arc.",
+    "prompt_zh": "一只海鸥双翼后掠，沿浅弧线向下掠过。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_0fba73858e59",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_813657f7dfd2",
+    "prompt": "A person walks while turning their head to look around slowly.",
+    "prompt_zh": "一个人边走边慢慢转头环顾。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "gen3d_be942b253b76",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_6c22f35e7af2",
+    "prompt": "A cross-shaped solid turns a quarter turn around its vertical axis.",
+    "prompt_zh": "",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "fix5_6c22f35e7af2",
+    "source_file": "fixed5_anchor_v1/tasks5000_v1/topup/candidates.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_c28546b2ff4b",
+    "prompt": "A cat raising its back into a hump at a passing dog.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "articulation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atomic50_d52e803bb278",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_9dbd1993cbc5",
+    "prompt": "A thin circular ring expands uniformly around its fixed center.",
+    "prompt_zh": "",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "deformation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "fix5_9dbd1993cbc5",
+    "source_file": "fixed5_anchor_v1/tasks5000_v1/topup/candidates.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_8ad629c8efcf",
+    "prompt": "A wolf climbing over a fallen tree trunk.",
+    "prompt_zh": "",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atomic50_6f44ef7bbfa1",
+    "source_file": "atomic_first_frame_8000_v1/task_pool/tasks.json",
+    "source_dim": 2,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_acb66b5a5992",
+    "prompt": "A ring is dragged toward a peg and drops onto it.",
+    "prompt_zh": "圆环被拖向一根短钉并落在其上。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_ff44ae5ae4d8",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_3c6420163eed",
+    "prompt": "A short train moves steadily past a single signal post beside a broad curved track.",
+    "prompt_zh": "一列短编组列车在宽阔弯道旁平稳驶过一根信号柱。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_7fb0168feeda",
+    "source_file": "ar_high_weakness600_v1/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_60e37c042727",
+    "prompt": "A ring drops onto a post that stands atop a small box.",
+    "prompt_zh": "圆环落套在一根立在小方块上的立柱。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_8a3627aab96c",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_b86a30bf6935",
+    "prompt": "A person strolls down a gentle ramp beside a ball.",
+    "prompt_zh": "一个人沿着缓坡走下，旁边有一个球。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_ea2d5c87cf47",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_6e1cf16eac80",
+    "prompt": "A rooftop ventilation fan spins inside its round housing.",
+    "prompt_zh": "屋顶通风扇在圆形外壳内旋转。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_6b5e231889c7",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_19da955ea302",
+    "prompt": "A ball rolls along a low wall's inner face and enters a short open tunnel.",
+    "prompt_zh": "一个球沿矮墙的内侧滚动并进入一段短而敞开的隧道。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_7cbf5717e0de",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_376d747250f8",
+    "prompt": "A hamster nuzzles a cube forward and rests its paws on top.",
+    "prompt_zh": "一只仓鼠把方块向前推并趴在上面。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_63356a593ce2",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_f50422467ff2",
+    "prompt": "A woman steps onto a low platform and continues forward.",
+    "prompt_zh": "一名女子踩上一个低平台并继续向前。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_10185d9cf8cc",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_8856cf1145af",
+    "prompt": "A person tosses a ball to a friend who catches it while kneeling on a mat.",
+    "prompt_zh": "一个人把球抛给跪在垫子上的朋友，朋友接住。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_a461e048846d",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_689585e20493",
+    "prompt": "A person bends sideways with one hand on the hip and the other sliding down the leg.",
+    "prompt_zh": "一个人侧弯，一只手放在髋部，另一只手沿腿下滑。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "articulation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_537b9bc97a5d",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_a6cfb596a7c4",
+    "prompt": "A rolling ball nudges a ball perched on the edge of a small box until it falls.",
+    "prompt_zh": "滚动的球轻推箱子边缘的球，直到它掉落。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "contact",
+      "translation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_de06bd8e2c0f",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_8b46ba1740ba",
+    "prompt": "A cylinder slides off a box and threads through a wide ring on the ground.",
+    "prompt_zh": "一个圆柱从盒子上滑下，穿过地面的宽环。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 1,
+    "source_id": "atom_9a7ba9498856",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_dd8f6c410ddc",
+    "prompt": "A hamster scales the side of a stepped platform.",
+    "prompt_zh": "一只仓鼠攀爬阶梯平台的侧面。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": true,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_8b2e6b98c842",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_876eccef68b9",
+    "prompt": "A ball rolls out of a box and passes through a doorway.",
+    "prompt_zh": "一个球从盒子滚出并穿过一个门洞。",
+    "category": "geometry",
+    "category_zh": "几何与空间运动",
+    "tags": [
+      "translation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "atom_9d5a1b4361a6",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_42752481e916",
+    "prompt": "A cyclist pedals a bicycle up and over a small arched bridge.",
+    "prompt_zh": "一名骑手骑着自行车上下越过一座小拱桥。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_82962efcc180",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_4c1d94cd8e2b",
+    "prompt": "A half-open trunk lid of a parked car swings down and latches.",
+    "prompt_zh": "一辆停着的车半开的后备箱盖向下摆回并锁定。",
+    "category": "vehicle",
+    "category_zh": "交通工具",
+    "tags": [
+      "rotation",
+      "articulation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_160629f71971",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_e790911868cc",
+    "prompt": "A person pulls a broom toward their chest with both hands.",
+    "prompt_zh": "一个人双手把扫帚拉向胸前。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "translation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_0b346a894ee6",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_75ec9e3b431c",
+    "prompt": "A pair of pastry tongs closes gently above a plate.",
+    "prompt_zh": "一把糕点夹在盘子上方轻轻合拢。",
+    "category": "physics",
+    "category_zh": "物理运动",
+    "tags": [
+      "articulation",
+      "rotation"
+    ],
+    "independent": false,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_d90ca37533bf",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_6b5ddfe983f3",
+    "prompt": "A person pivots sharply to face a sound behind their shoulder.",
+    "prompt_zh": "一个人猛地转身面向肩膀后传来的声音。",
+    "category": "human",
+    "category_zh": "人物",
+    "tags": [
+      "rotation"
+    ],
+    "independent": true,
+    "locomotion": false,
+    "review_quality": 2,
+    "source_id": "gen3d_a11949c115e2",
+    "source_file": "sketch3d_general5000_v2/tasks.json",
+    "source_dim": 3,
+    "split": "validation"
+  },
+  {
+    "id": "fix5_a5cb071a5ae0",
+    "prompt": "A hedgehog crawls onto one end of a balance plank and tips it.",
+    "prompt_zh": "一只刺猬爬上一块平衡木板的一端，把它压倾斜。",
+    "category": "animal",
+    "category_zh": "动物",
+    "tags": [
+      "translation",
+      "rotation",
+      "contact"
+    ],
+    "independent": false,
+    "locomotion": true,
+    "review_quality": 2,
+    "source_id": "atom_4d3619ca3cd8",
+    "source_file": "sketch3d_general5000_v2/source_tasks_4000.json",
+    "source_dim": 3,
+    "split": "validation"
+  }
+]

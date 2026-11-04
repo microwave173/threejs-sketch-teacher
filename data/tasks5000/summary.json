@@ -1,0 +1,37 @@
+{
+  "total": 5000,
+  "train": 4750,
+  "validation": 250,
+  "category_counts": {
+    "all": {
+      "vehicle": 750,
+      "human": 1250,
+      "animal": 1250,
+      "physics": 1250,
+      "geometry": 500
+    },
+    "train": {
+      "vehicle": 709,
+      "human": 1194,
+      "animal": 1188,
+      "physics": 1190,
+      "geometry": 469
+    },
+    "validation": {
+      "human": 56,
+      "animal": 62,
+      "vehicle": 41,
+      "geometry": 31,
+      "physics": 60
+    }
+  },
+  "unique_ids": 5000,
+  "unique_normalized_prompts": 5000,
+  "train_validation_id_overlap": 0,
+  "task_prompt_preserved": true,
+  "legacy_frame_metadata_removed": [
+    "dim",
+    "total_frames"
+  ],
+  "note": "Task prompts only. These are the existing Fixed5/IR4750 split, not newly generated Three.js trajectories. Historical validation split does not guarantee semantic novelty against all older experiments."
+}

@@ -6,6 +6,12 @@
 
 本仓库把历史 Three.js 教师生成实验整理成独立项目。**一次请求输出完整动画脚本；不是逐帧请求 LLM，也不是补全预设运动代码。**
 
+**已附完整 [5,000 条任务](data/tasks5000/README.md)**，沿用 Fixed5 / IR4750 的 **4,750 训练 + 250 留出**划分。只有任务 prompt，没有为这些任务新增 Three.js 教师轨迹。
+
+批量任务可直接交给 agent：
+
+> 按本仓库 README 跑通环境，使用 data/tasks5000/train4750.json 为 4,750 条训练任务生成 Three.js 教师轨迹，保留 data/tasks5000/validation250.json 作为留出集；先独立跑 4 条检查，再用新输出目录跑训练划分。沿用最新简单运动提示词、默认 low thinking 和压缩流程，保留失败记录与进度网页，不启动 SFT。
+
 ## 安装与运行
 
 Linux/macOS，Python 3.10+；渲染不需要模型 GPU。API 会产生费用。
@@ -60,6 +66,7 @@ function createAnimation({THREE, scene, camera}) {
 - [历史原版](prompts/system_original.txt) / [压缩提示词](prompts/compress_system.txt)。压缩沿用历史版本，包含删除重复算术的要求，并非后来强化数学推导的版本；压缩保真需抽查。
 - [config.json](config.json)：模型名、endpoint、thinking 强度、并发、时长等。默认生成 low、压缩 no thinking，API 并发 8、渲染并发 2。
 - [示例 4 题](examples/tasks.json) / [历史 100 题任务清单](data/tasks100.json)：物理、几何、人物、动物各 25 题，不宣称独立测试集。
+- [完整 5,000 题及原始划分](data/tasks5000/README.md)：涵盖物理、动物、人物、交通工具、几何；直接使用 `--tasks data/tasks5000/train4750.json` 运行训练划分。
 - 批处理：`python run.py --tasks data/tasks100.json --output outputs/batch100`。先检查前 4 题，再扩到其余任务；`--pilot-only` 只跑前 4 题，`--limit N` 限制任务数。
 - 同一命令可断点继续；成功结果及 API 响应复用。任务、提示词或配置改变必须使用新输出目录，禁止混用旧缓存。
 - 401/402/403 停止新增 API 请求；普通网络错误有限重试。已在途请求可能继续完成；失败记录和原始响应保留。

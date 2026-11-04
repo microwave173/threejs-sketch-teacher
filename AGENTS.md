@@ -4,6 +4,7 @@ Read README.md first. This repository generates Three.js teacher trajectories; i
 
 - Preserve `prompts/system.txt`, especially minimal strokes, real 3D geometry, simple motion, and deterministic `render(t)`.
 - Put user tasks into a JSON list with unique safe IDs. User input is only the animation task; the system prompt defines the API and style.
+- For the existing 5,000-task pool, use `data/tasks5000/train4750.json` for training-data generation and retain `validation250.json` as held out. Use `tasks.json` only when the user explicitly wants the whole pool. This is the historical split, not a new semantic-isolation guarantee.
 - Install requirements, Playwright Chromium and the pinned tokenizer with `scripts/setup_tokenizer.py`. Use `DEEPSEEK_API_KEY` from the environment. Never print, commit or embed credentials in requests or browser assets.
 - Run `scripts/smoke_test.py` to verify rendering without API use, then run the requested tasks using a fresh `--output` directory. Do not overwrite historical examples.
 - Same config/tasks/prompts may resume in the same output directory. Never bypass manifest/cache mismatch checks.
