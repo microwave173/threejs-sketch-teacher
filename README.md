@@ -2,15 +2,19 @@
 
 ## 给 agent 的一句话（新版优先，按任务选一条）
 
-**1. 新 idea：静态风格蒸馏 → 补运动 → 分对象探索**
+**1. 当前新 idea：storyboard → 分 object 绘制与选优 → 分 object 运动 → 组合**
+
+> 请阅读 https://github.com/microwave173/threejs-sketch-teacher 的 README、AGENTS.md 和 docs/ideas/IDEA_ZH.md，为指定的少量任务实现并测试分对象 Three.js 动画 pipeline：先生成 storyboard，确定每个 object 的初始形态、位置、朝向、动作及交互，以及统一坐标、时间轴和共享关键时间点/空间锚点；然后逐个 object 单独生成静态 3D sketch，可多次采样并用 DeepSeek 多视角视觉比较选优；保持参考 3DrawAgent 的简洁立体风格、统一黑色管线半径0.008、命名 THREE.Group 和 stroke 语义注释。将实际几何的接触点绑定到共享锚点后，每个 object 单独生成运动脚本，最终组合到同一场景渲染。使用 DeepSeek low thinking 生成、no thinking 视觉评选，显式处理局部/世界坐标转换和交互同步，检查初始造型保持、连接与接触。复用 prompts/static_motion_v2 的风格要求，但将整场输入输出改成对象级接口，不得用整场一次绘制替代分对象生成。新建独立入口，保存各阶段输入输出、原始 reasoning、usage、失败记录和结果网页；不覆盖历史流程，不自动批量造5000条或启动SFT。
+
+**2. 备选 baseline：整场静态 → 补运动**
 
 > 请阅读 https://github.com/microwave173/threejs-sketch-teacher 的 README、AGENTS.md 和 docs/ideas/IDEA_ZH.md、PIPELINE_ZH.md、TODO_ZH.md，使用 prompts/static_motion_v2 的原始提示词，先为我指定的少量任务搭建并验证“首帧描述→整场静态 Three.js→补运动”的流程：DeepSeek low thinking 生成，统一黑色管线半径0.008、保持简洁立体、命名 Group 和部件注释；静态候选用对应多视角小图交给 DeepSeek no thinking 视觉选优，运动阶段保持t=0几何。保存原始 reasoning、JS、usage、失败记录及预览，核对静态到动态的几何保持。注意根目录 run.py 是历史 one-shot，新流程需要另建入口；不要自动扩到5000题或启动SFT。后续分对象方案务必先 storyboard 确定初态/朝向和共享时空锚点，再分别绘制、补运动与组合。
 
-**2. 历史：一次生成完整动画**
+**3. 历史：一次生成完整动画**
 
 > 请阅读 https://github.com/microwave173/threejs-sketch-teacher 的 README 和 AGENTS.md，克隆并安装运行环境，使用环境变量 DEEPSEEK_API_KEY，以仓库默认的 DeepSeek low thinking 流程为「四张多米诺骨牌依次倒下」生成一个完整 Three.js 3D 线稿动画；保留少笔画、简单运动表达清楚动作的风格约束，完成浏览器渲染、结构检查和 reasoning 压缩，输出 GIF、帧拼图、JS、原始及压缩 reasoning，并给我结果网页路径。使用新的输出目录，失败时按项目规则重试，不手工修改教师代码，不启动 SFT。
 
-**3. 历史：4,750 题批量 one-shot 教师数据**
+**4. 历史：4,750 题批量 one-shot 教师数据**
 
 > 按本仓库 README 跑通环境，使用 data/tasks5000/train4750.json 为 4,750 条训练任务生成 Three.js 教师轨迹，保留 data/tasks5000/validation250.json 作为留出集；先独立跑 4 条检查，再用新输出目录跑训练划分。沿用最新简单运动提示词、默认 low thinking 和压缩流程，保留失败记录与进度网页，不启动 SFT。
 

@@ -2,6 +2,8 @@
 
 Read README.md first. This repository generates Three.js teacher trajectories; it does not train or serve a student model.
 
+The primary new idea is storyboard-first, per-object static generation/selection, per-object motion, then composition. Do not substitute whole-scene generation: it is only a comparison baseline. The per-object workflow is an implementation plan, not an already shipped CLI.
+
 - For the new static/motion idea, first read `docs/ideas/PIPELINE_ZH.md` and use `prompts/static_motion_v2/`. The existing `run.py` does NOT implement that workflow; do not silently substitute one-shot. Keep the storyboard-first object workflow marked as future work.
 - For the historical one-shot baseline, preserve `prompts/system.txt`, especially minimal strokes, real 3D geometry, simple motion, and deterministic `render(t)`.
 - Put user tasks into a JSON list with unique safe IDs. User input is only the animation task; the system prompt defines the API and style.
