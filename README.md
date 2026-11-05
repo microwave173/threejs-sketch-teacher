@@ -1,16 +1,27 @@
 # Three.js Sketch Teacher
 
-**给 agent 的一句话（复制后把任务替换成你想画的内容）：**
+## 给 agent 的一句话（新版优先，按任务选一条）
+
+**1. 新 idea：静态风格蒸馏 → 补运动 → 分对象探索**
+
+> 请阅读 https://github.com/microwave173/threejs-sketch-teacher 的 README、AGENTS.md 和 docs/ideas/IDEA_ZH.md、PIPELINE_ZH.md、TODO_ZH.md，使用 prompts/static_motion_v2 的原始提示词，先为我指定的少量任务搭建并验证“首帧描述→整场静态 Three.js→补运动”的流程：DeepSeek low thinking 生成，统一黑色管线半径0.008、保持简洁立体、命名 Group 和部件注释；静态候选用对应多视角小图交给 DeepSeek no thinking 视觉选优，运动阶段保持t=0几何。保存原始 reasoning、JS、usage、失败记录及预览，核对静态到动态的几何保持。注意根目录 run.py 是历史 one-shot，新流程需要另建入口；不要自动扩到5000题或启动SFT。后续分对象方案务必先 storyboard 确定初态/朝向和共享时空锚点，再分别绘制、补运动与组合。
+
+**2. 历史：一次生成完整动画**
 
 > 请阅读 https://github.com/microwave173/threejs-sketch-teacher 的 README 和 AGENTS.md，克隆并安装运行环境，使用环境变量 DEEPSEEK_API_KEY，以仓库默认的 DeepSeek low thinking 流程为「四张多米诺骨牌依次倒下」生成一个完整 Three.js 3D 线稿动画；保留少笔画、简单运动表达清楚动作的风格约束，完成浏览器渲染、结构检查和 reasoning 压缩，输出 GIF、帧拼图、JS、原始及压缩 reasoning，并给我结果网页路径。使用新的输出目录，失败时按项目规则重试，不手工修改教师代码，不启动 SFT。
 
-本仓库把历史 Three.js 教师生成实验整理成独立项目。**一次请求输出完整动画脚本；不是逐帧请求 LLM，也不是补全预设运动代码。**
-
-**已附完整 [5,000 条任务](data/tasks5000/README.md)**，沿用 Fixed5 / IR4750 的 **4,750 训练 + 250 留出**划分。只有任务 prompt，没有为这些任务新增 Three.js 教师轨迹。
-
-批量任务可直接交给 agent：
+**3. 历史：4,750 题批量 one-shot 教师数据**
 
 > 按本仓库 README 跑通环境，使用 data/tasks5000/train4750.json 为 4,750 条训练任务生成 Three.js 教师轨迹，保留 data/tasks5000/validation250.json 作为留出集；先独立跑 4 条检查，再用新输出目录跑训练划分。沿用最新简单运动提示词、默认 low thinking 和压缩流程，保留失败记录与进度网页，不启动 SFT。
+
+## 版本与入口
+
+新 idea、当前进度及提示词见 [方案](docs/ideas/IDEA_ZH.md) / [流程](docs/ideas/PIPELINE_ZH.md) / [TODO](docs/ideas/TODO_ZH.md)。分对象流程尚待实现；不要和以下历史 CLI 混用。
+
+历史可运行 baseline 把 Three.js 教师生成实验整理成独立项目。**一次请求输出完整动画脚本；不是逐帧请求 LLM，也不是补全预设运动代码。**
+
+**已附完整 [5,000 条任务](data/tasks5000/README.md)**，沿用 Fixed5 / IR4750 的 **4,750 训练 + 250 留出**划分。此公开仓库提供任务 prompt，尚未上传新一轮教师轨迹。
+
 
 ## 安装与运行
 

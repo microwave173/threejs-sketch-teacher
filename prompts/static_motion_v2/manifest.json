@@ -1,0 +1,12 @@
+{
+  "version": "uniform_width_v2",
+  "stroke_radius_world": 0.008,
+  "generation_thinking": "low",
+  "visual_selection_thinking": "disabled",
+  "sha256": {
+    "motion_system.txt": "d8507c85fda825f6493898261b29d0ac713e94cec01129f5ae0106f79e2e3833",
+    "describe_system.txt": "4fea467c3ed8dac1c1c5303afe92e6f72e9f981e195aa4bdbe3fcdb5d6ad0bab",
+    "judge_system.txt": "918d86da60a6d03e136f8a3ba647055af715dfb2835db1742c05195f675fb6f5",
+    "static_system.txt": "abe7415aad70bf0a162a4145685701d9ad289001fc0f85094e50f868e6cc0d09"
+  }
+}
