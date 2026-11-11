@@ -1,0 +1,110 @@
+{
+  "total": 4750,
+  "accepted": 4733,
+  "excluded": [
+    {
+      "ok": false,
+      "error": "file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32468\n\t\t\tpx.initCatmullRom( p0.x, p1.x, p2.x, p3.x, this.tension );\n\t\t\t                      ^\n\nTypeError: Cannot read properties of undefined (reading 'x')\n    at CatmullRomCurve3.getPoint (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32468:26)\n    at CatmullRomCurve3.getTangent (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31726:20)\n    at CatmullRomCurve3.getTangentAt (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31748:15)\n    at CatmullRomCurve3.computeFrenetFrames (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31779:25)\n    at new TubeGeometry (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:37487:23)\n    at stroke (evalmachine.<anonymous>:7:18)\n    at createAnimation (evalmachine.<anonymous>:19:12)\n    at evalmachine.<anonymous>:90:2\n    at Script.runInContext (node:vm:150:12)\n    at Object.runInContext (node:vm:302:6)",
+      "id": "single3d_8d59fadc3a08",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32468\n\t\t\tpx.initCatmullRom( p0.x, p1.x, p2.x, p3.x, this.tension );\n\t\t\t                            ^\n\nTypeError: Cannot read properties of undefined (reading 'x')\n    at CatmullRomCurve3.getPoint (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32468:32)\n    at CatmullRomCurve3.getTangent (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31726:20)\n    at CatmullRomCurve3.getTangentAt (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31748:15)\n    at CatmullRomCurve3.computeFrenetFrames (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31779:25)\n    at new TubeGeometry (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:37487:23)\n    at strokeMesh (evalmachine.<anonymous>:30:27)\n    at createAnimation (evalmachine.<anonymous>:64:11)\n    at evalmachine.<anonymous>:151:2\n    at Script.runInContext (node:vm:150:12)\n    at Object.runInContext (node:vm:302:6)",
+      "id": "single3d_4619f1cf1a00",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "Error: Non-deterministic render(0) after other frames\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:26:43\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_1fb9195d83a5",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "Error: Non-deterministic render(0) after other frames\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:26:43\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_cf01bfc51e08",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "Error: Non-deterministic render(0) after other frames\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:26:43\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_b12a537a00eb",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32468\n\t\t\tpx.initCatmullRom( p0.x, p1.x, p2.x, p3.x, this.tension );\n\t\t\t                      ^\n\nTypeError: Cannot read properties of undefined (reading 'x')\n    at CatmullRomCurve3.getPoint (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32468:26)\n    at CatmullRomCurve3.getLengths (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31588:28)\n    at CatmullRomCurve3.getUtoTmapping (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31632:27)\n    at CatmullRomCurve3.getTangentAt (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31747:18)\n    at CatmullRomCurve3.computeFrenetFrames (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31779:25)\n    at new TubeGeometry (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:37487:23)\n    at tube (evalmachine.<anonymous>:9:17)\n    at createAnimation (evalmachine.<anonymous>:38:13)\n    at evalmachine.<anonymous>:94:2\n    at Script.runInContext (node:vm:150:12)",
+      "id": "single3d_e8a119d82239",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "Error: Non-deterministic render(0) after other frames\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:26:43\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_2e1cc4bfe3db",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "evalmachine.<anonymous>:5\nfunction createAnimation({ THREE, scene, camera }) {\n^^^^^^^^\n\nSyntaxError: Unexpected token 'function'\n    at new Script (node:vm:118:7)\n    at createScript (node:vm:270:10)\n    at Object.runInContext (node:vm:301:10)\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:11:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_44bb26102f4c",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32453\n\t\t\tlet dt0 = Math.pow( p0.distanceToSquared( p1 ), pow );\n\t\t\t                       ^\n\nTypeError: Cannot read properties of undefined (reading 'distanceToSquared')\n    at CatmullRomCurve3.getPoint (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32453:27)\n    at CatmullRomCurve3.getLengths (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31588:28)\n    at CatmullRomCurve3.getUtoTmapping (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31632:27)\n    at CatmullRomCurve3.getTangentAt (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31747:18)\n    at CatmullRomCurve3.computeFrenetFrames (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31779:25)\n    at new TubeGeometry (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:37487:23)\n    at addTube (evalmachine.<anonymous>:9:17)\n    at createAnimation (evalmachine.<anonymous>:34:3)\n    at evalmachine.<anonymous>:63:2\n    at Script.runInContext (node:vm:150:12)",
+      "id": "single3d_750d5a9e3344",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "Error: Non-deterministic render(0) after other frames\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:26:43\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_a7c5f499ba74",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:4656\n\t\tthis.x = a.x - b.x;\n\t\t                 ^\n\nTypeError: Cannot read properties of undefined (reading 'x')\n    at Vector3.subVectors (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:4656:20)\n    at CatmullRomCurve3.getPoint (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32429:8)\n    at CatmullRomCurve3.getLengths (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31588:28)\n    at CatmullRomCurve3.getUtoTmapping (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31632:27)\n    at CatmullRomCurve3.getTangentAt (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31747:18)\n    at CatmullRomCurve3.computeFrenetFrames (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31779:25)\n    at new TubeGeometry (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:37487:23)\n    at stroke (evalmachine.<anonymous>:10:17)\n    at createAnimation (evalmachine.<anonymous>:79:12)\n    at evalmachine.<anonymous>:105:2",
+      "id": "single3d_f52d47d3f2d5",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "Error: Empty geometry\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:23:22\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_e6536aae1568",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:5298\n\t\tconst dx = this.x - v.x, dy = this.y - v.y, dz = this.z - v.z;\n\t\t                      ^\n\nTypeError: Cannot read properties of undefined (reading 'x')\n    at Vector3.distanceToSquared (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:5298:25)\n    at CatmullRomCurve3.getPoint (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32453:27)\n    at CatmullRomCurve3.getTangent (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31726:20)\n    at CatmullRomCurve3.getTangentAt (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31748:15)\n    at CatmullRomCurve3.computeFrenetFrames (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31779:25)\n    at new TubeGeometry (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:37487:23)\n    at updateLeg (evalmachine.<anonymous>:111:21)\n    at render (evalmachine.<anonymous>:146:7)\n    at createAnimation (evalmachine.<anonymous>:153:3)\n    at evalmachine.<anonymous>:156:2",
+      "id": "single3d_f96d7a0c22b8",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "Error: Non-deterministic render(0) after other frames\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:26:43\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_d64b878935f0",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "Error: Non-deterministic render(0) after other frames\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:26:43\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_e103024380fe",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "Error: Non-deterministic render(0) after other frames\n    at file://<workspace>/experiments/threejs_single_subject4750_qwen4b_fullft_3ep_v1/check_execution.mjs:26:43\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+      "id": "single3d_7cdf0b0a4bac",
+      "seconds": null
+    },
+    {
+      "ok": false,
+      "error": "file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32468\n\t\t\tpx.initCatmullRom( p0.x, p1.x, p2.x, p3.x, this.tension );\n\t\t\t                            ^\n\nTypeError: Cannot read properties of undefined (reading 'x')\n    at CatmullRomCurve3.getPoint (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:32468:32)\n    at CatmullRomCurve3.getTangent (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31726:20)\n    at CatmullRomCurve3.getTangentAt (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31748:15)\n    at CatmullRomCurve3.computeFrenetFrames (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:31779:25)\n    at new TubeGeometry (file://<workspace>/experiments/threejs_teacher800_low_v1/pipeline/runtime/assets/three.core.js:37487:23)\n    at tube (evalmachine.<anonymous>:11:17)\n    at createAnimation (evalmachine.<anonymous>:42:12)\n    at evalmachine.<anonymous>:99:2\n    at Script.runInContext (node:vm:150:12)\n    at Object.runInContext (node:vm:302:6)",
+      "id": "single3d_e646b01e186e",
+      "seconds": null
+    }
+  ],
+  "seconds": 0.48245978355407715,
+  "scope": "CPU actualThree.js construction +6updates, finite/nonempty geometry and render(0) determinism; no image or semantic certification"
+}

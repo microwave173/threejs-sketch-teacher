@@ -1,5 +1,9 @@
 # Three.js Sketch Teacher
 
+## 已上传的完整动画教师数据
+
+[普通 Three.js 单主体动画教师 trace](data/teachers/single_subject4750_v1/README.md)：5,000 任务池中已生成 **4,750 条**，含原生 thinking 和完整代码；历史 SFT 实际使用 **4,733 条**，另 250 题仅作为 prompt 留出。10 份 gzip JSONL 共约 55 MB，附真实任务划分、训练 ID、失败记录及 SHA256。这批不是 Shape/Move 问答数据，也不属于下方静态/分对象流程；5 条 API 原始 thinking 为空，已明确标记。
+
 ## 给 agent 的一句话（新版优先，按任务选一条）
 
 **1. 当前新 idea：storyboard → 分 object 绘制与选优 → 分 object 运动 → 组合**

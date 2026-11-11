@@ -1,0 +1,104 @@
+{
+  "version": "single_subject4750_v1",
+  "teacher": "deepseek-flash",
+  "reasoning_effort": "low",
+  "reasoning_policy": "original verbatim; no compression",
+  "tasks_total": 5000,
+  "teacher_traces": 4750,
+  "sft_accepted": 4733,
+  "execution_excluded": 17,
+  "heldout_prompts_only": 250,
+  "empty_reasoning_ids": [
+    "single3d_9b6ec307e690",
+    "single3d_ee04323f9456",
+    "single3d_6a18ef2a8275",
+    "single3d_7baf841880e1",
+    "single3d_009dd3cd8600"
+  ],
+  "shards": [
+    "traces-00.jsonl.gz",
+    "traces-01.jsonl.gz",
+    "traces-02.jsonl.gz",
+    "traces-03.jsonl.gz",
+    "traces-04.jsonl.gz",
+    "traces-05.jsonl.gz",
+    "traces-06.jsonl.gz",
+    "traces-07.jsonl.gz",
+    "traces-08.jsonl.gz",
+    "traces-09.jsonl.gz"
+  ],
+  "category_counts": {
+    "object": 949,
+    "animal": 1425,
+    "vehicle": 951,
+    "geometry": 714,
+    "human": 711
+  },
+  "source_jsonl_sha256": "40e3af4fb37222a2f0643c8171a363d306373e94a1c8cb3a36e82eca47c65ac6",
+  "files": {
+    "execution_summary.json": {
+      "bytes": 14857,
+      "sha256": "bf894d778ecdefadf289ceeb358c3180c1095e566c2c197cc6fde23cd8d3489a"
+    },
+    "heldout250.json": {
+      "bytes": 140711,
+      "sha256": "8bdb33cc097137d60fa5ccc91eb40bf3eced4294dabb719f25fa57f0c60ea16e"
+    },
+    "tasks5000.json": {
+      "bytes": 2822646,
+      "sha256": "ceaf5884721d0a475d04c976b872ebe5dbb12d183e618b9d07208df4b2eb1d1e"
+    },
+    "teacher_system.txt": {
+      "bytes": 1455,
+      "sha256": "2a888a84b761327c75e3c067152f11b0658f9e49701ba2069eecec98583a90ad"
+    },
+    "traces-00.jsonl.gz": {
+      "bytes": 5548342,
+      "sha256": "120c7a884e14c1dcfbaa8cdfda9d98853b62db88344fff0e4c5c4d62b8b62df1"
+    },
+    "traces-01.jsonl.gz": {
+      "bytes": 5670162,
+      "sha256": "8b1a0c4c6d236eb4d1a626df77f517b31eda4c42a6391dedc06bc8b31342b215"
+    },
+    "traces-02.jsonl.gz": {
+      "bytes": 5449359,
+      "sha256": "b5d94fe6a0fc6f9452d0d149a57faae5efe8e2b0209f57ca29e667e6b5e8906f"
+    },
+    "traces-03.jsonl.gz": {
+      "bytes": 5253458,
+      "sha256": "a7000ffd341675c5f8459011e5c988b6ae07becca4e6e92fd42a923d7e56c7ba"
+    },
+    "traces-04.jsonl.gz": {
+      "bytes": 5647009,
+      "sha256": "5498551dc574c44ab0cbca5aa0425e3d09ad509d3e373189bb81460ac6a03041"
+    },
+    "traces-05.jsonl.gz": {
+      "bytes": 5747096,
+      "sha256": "17fb0d8d4a915feb752c3a8b45bab0ff48763162f04372d19d60db8435cfd222"
+    },
+    "traces-06.jsonl.gz": {
+      "bytes": 5305813,
+      "sha256": "08f5ab40fff8161d4970311f8ea043cf1d70caa5d6c4fe733bdc29a3c3b93df6"
+    },
+    "traces-07.jsonl.gz": {
+      "bytes": 5512200,
+      "sha256": "0228fd4d836703e67480021909316cd4e072692614e397a520b13af9e6cae81c"
+    },
+    "traces-08.jsonl.gz": {
+      "bytes": 5473298,
+      "sha256": "567a1de44ecbdb32f48fec1db17a7336a1bc9222ec9ca36ec7c2af3aaf3ad3a9"
+    },
+    "traces-09.jsonl.gz": {
+      "bytes": 5428312,
+      "sha256": "9bafcb244e8030a70b7bb921ea2406c40fbd9a4240f604a42a4804b186e94b0b"
+    },
+    "train4750.json": {
+      "bytes": 2681938,
+      "sha256": "03de532d9518bc5bef28eaa2cec8ae8e7ce8c2be6f3d1e35f8b479376789fab3"
+    },
+    "training_ids.json": {
+      "bytes": 127794,
+      "sha256": "0e4327cc6a3ec4bd3667ac93f778d78af21eda2d631d97ee329cc36a656ee5cf"
+    }
+  }
+}
