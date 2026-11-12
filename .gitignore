@@ -7,6 +7,8 @@ __pycache__/
 !.env.example
 tokenizer/
 outputs/
+/weights/
+/data/movement_labels_train.raw.jsonl
 my_tasks.json
 *.log
 *.lock

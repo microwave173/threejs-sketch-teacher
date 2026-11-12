@@ -1,0 +1,68 @@
+{
+  "version": "movement_labels2000_2ep_v1",
+  "rows": 2000,
+  "category_counts": {
+    "animal": 512,
+    "human": 308,
+    "vehicle": 369,
+    "object": 298,
+    "geometry": 292,
+    "physics": 221
+  },
+  "raw_sha256": "a7070af6c3133de281ef776fc98bf9ded443136350df7e8c3cb8a1ee872db741",
+  "raw_bytes": 83154345,
+  "native_reasoning_supervised": true,
+  "compression": false,
+  "truncated_training_rows": 0,
+  "teacher": "DeepSeek low thinking",
+  "shards": [
+    {
+      "file": "train-00000-of-00008.jsonl.gz",
+      "rows": 250,
+      "bytes": 3019659,
+      "sha256": "996dee22712306b1addc315f95d7418e1163d1e344b6f64ae43da17414ea7259"
+    },
+    {
+      "file": "train-00001-of-00008.jsonl.gz",
+      "rows": 250,
+      "bytes": 2932787,
+      "sha256": "78dab5f47624e4eff265d027c70f17c197c008bfbcd0615efc2230b1850b8e99"
+    },
+    {
+      "file": "train-00002-of-00008.jsonl.gz",
+      "rows": 250,
+      "bytes": 3092152,
+      "sha256": "dfcdfc09d01b9a5d49c21d009f107c152fc0dbe9c30c24f17969a69b838c8ab7"
+    },
+    {
+      "file": "train-00003-of-00008.jsonl.gz",
+      "rows": 250,
+      "bytes": 3260264,
+      "sha256": "c2882c9d7c6fc54f841263c2d0cdde3c0c0acb1d42a35e3490e777aaea8daf63"
+    },
+    {
+      "file": "train-00004-of-00008.jsonl.gz",
+      "rows": 250,
+      "bytes": 2914142,
+      "sha256": "ea6c53c11cffc90a9a637af8b9669d1fb5664d056202f9bef760c7ac4e5c834d"
+    },
+    {
+      "file": "train-00005-of-00008.jsonl.gz",
+      "rows": 250,
+      "bytes": 2965082,
+      "sha256": "24301c83ec4ec6c116aa0759185d01e356352052d1ad83d2ddaef6bdad8998eb"
+    },
+    {
+      "file": "train-00006-of-00008.jsonl.gz",
+      "rows": 250,
+      "bytes": 2911451,
+      "sha256": "fdc63be7ab72e7ab0bd06840a1fa5a4f2cc7b431d2ce8b7ef74adc07da4984eb"
+    },
+    {
+      "file": "train-00007-of-00008.jsonl.gz",
+      "rows": 250,
+      "bytes": 3557782,
+      "sha256": "8804b8b3b1d7b2964584b283b263a39ae39e11d223672d2996ce4c4ba317cbdd"
+    }
+  ]
+}

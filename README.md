@@ -1,5 +1,17 @@
 # Three.js Sketch Teacher
 
+## 最新：可观测、可检查的3D sketch动画
+
+> **当模型自由创造物体、部件和运动时，如何让生成结果同时具有可靠的语义测量接口，使开放式动画也能被检查？**
+
+本轮发布[2000条实际训练数据](data/teachers/movement_labels2000_v1/README.md)、[4B标签模型（2epochs）](models/movement_labels2000_2ep/README.md)及[方法动机](docs/ideas/VERIFIABLE_SKETCH_MOTIVATION_ZH.md)。模型生成完整Three.js的同时，为关键实体/部位/锚点设置稳定labels；渲染视频提供形状/语义匹配信号，真实场景状态支持运动关系检查。标签及检查器的正确性需要分别验收。
+
+**[下载模型权重（GitHub Release）](https://github.com/microwave173/threejs-sketch-teacher/releases/tag/movement-labels-4b-2000-2ep-v1)**：包含正确的full-SFT ep3基础权重及最终LoRA；数据在仓库内，原生teacher reasoning与JS均保留。具体加载命令见模型说明。
+
+**给agent的一句话：**
+
+> 阅读本仓库最新模型说明、数据说明、docs/ideas/VERIFIABLE_SKETCH_MOTIVATION_ZH.md和AGENTS.md，下载并校验movement-labels-4b-2000-2ep-v1 Release中的full-SFT基础权重与最终adapter，恢复2000条实际训练序列，使用prompts/movement_labels2000_v1/system.txt，为我指定的少量任务生成带稀疏语义labels的完整Three.js动画；保留原生thinking和原始输出，分别检查实际几何绑定、渲染与运动关系，不将label可解析或脚本可执行当作动作正确，不自动启动新的SFT。
+
 ## 已上传的完整动画教师数据
 
 [普通 Three.js 单主体动画教师 trace](data/teachers/single_subject4750_v1/README.md)：5,000 任务池中已生成 **4,750 条**，含原生 thinking 和完整代码；历史 SFT 实际使用 **4,733 条**，另 250 题仅作为 prompt 留出。10 份 gzip JSONL 共约 55 MB，附真实任务划分、训练 ID、失败记录及 SHA256。这批不是 Shape/Move 问答数据，也不属于下方静态/分对象流程；5 条 API 原始 thinking 为空，已明确标记。

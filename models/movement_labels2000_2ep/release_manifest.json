@@ -1,0 +1,54 @@
+{
+  "repo": "microwave173/threejs-sketch-teacher",
+  "tag": "movement-labels-4b-2000-2ep-v1",
+  "base": "full-parameter sketch4b_ep3; NOT official Qwen base",
+  "adapter_rank": 64,
+  "adapter_alpha": 128,
+  "epochs": 2,
+  "training_rows": 2000,
+  "adapter_tensor_sha256": "9257dff502adee77f226c8506960d88a5260eb353d263ecc11b2fce5242d6b18",
+  "files": [
+    {
+      "name": "model-00001-of-00005.safetensors",
+      "destination": "base/model-00001-of-00005.safetensors",
+      "bytes": 1996138368,
+      "sha256": "7ff27769417dbf39780407a0019a3f0c7f055b3f31d311bddc3d95b26fcfab94"
+    },
+    {
+      "name": "model-00002-of-00005.safetensors",
+      "destination": "base/model-00002-of-00005.safetensors",
+      "bytes": 1995160352,
+      "sha256": "112041671389f85e15cf2f8198dfb73a0569132fd23d77d5237996464bc5790d"
+    },
+    {
+      "name": "model-00003-of-00005.safetensors",
+      "destination": "base/model-00003-of-00005.safetensors",
+      "bytes": 1968944944,
+      "sha256": "545eda661df0a5edef6ea658b88639b5823aa6618655176298bfed4c49f50d28"
+    },
+    {
+      "name": "model-00004-of-00005.safetensors",
+      "destination": "base/model-00004-of-00005.safetensors",
+      "bytes": 1963297576,
+      "sha256": "0d96ce1241043b4db3f96ed91f79ce3d37a99b340839bf44031e73a3ea6d44f9"
+    },
+    {
+      "name": "model-00005-of-00005.safetensors",
+      "destination": "base/model-00005-of-00005.safetensors",
+      "bytes": 1155078448,
+      "sha256": "a53bd30218f5f4995be2ddb00eaa2a425563252070ead30e344a25f3ce1fb1d8"
+    },
+    {
+      "name": "sketch4b-ep3-support.tar.gz",
+      "kind": "support",
+      "bytes": 3773009,
+      "sha256": "2ee144aca1ed36d18e4cdfff0a64cd43f83c5d624ea21ef8d6b60a90c2537835"
+    },
+    {
+      "name": "movement-labels2000-final-adapter.tar.gz",
+      "kind": "adapter_archive",
+      "bytes": 481054857,
+      "sha256": "a69995aa4de21dbb09f43b5428f9089d3a3dbd23edfb877011af56e4279be801"
+    }
+  ]
+}
