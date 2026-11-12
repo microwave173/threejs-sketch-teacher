@@ -13,6 +13,9 @@ def download(url,p,size,sha):
   if p.stat().st_size==size and digest(p)==sha:return
   raise RuntimeError('Existing file differs from release manifest: '+str(p))
  part=p.with_suffix(p.suffix+'.partial')
+ if part.exists() and part.stat().st_size==size:
+  if digest(part)!=sha:raise RuntimeError('Complete partial file failed SHA256: '+str(part))
+  part.replace(p);return
  for attempt in range(8):
   try:
    offset=part.stat().st_size if part.exists() else 0
